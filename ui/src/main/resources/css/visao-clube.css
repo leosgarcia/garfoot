@@ -1,0 +1,28 @@
+.root {
+    -fx-font-family: "System";
+    -fx-background-color: #f2f5f3;
+}
+.header {
+    -fx-background-color: #12392f;
+}
+.brand { -fx-text-fill: #a9d7bd; -fx-font-size: 13px; -fx-font-weight: bold; }
+.club-name { -fx-text-fill: white; -fx-font-size: 25px; -fx-font-weight: bold; }
+.panel {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-padding: 16;
+    -fx-effect: dropshadow(gaussian, #18352c18, 8, 0, 0, 2);
+}
+.section-title { -fx-font-size: 16px; -fx-font-weight: bold; -fx-text-fill: #18352c; }
+.status { -fx-text-fill: #53645d; -fx-font-size: 12px; }
+.status-error { -fx-text-fill: #a92c36; -fx-font-weight: bold; }
+.subtle { -fx-text-fill: #53645d; -fx-font-size: 14px; }
+.button {
+    -fx-background-color: #176b4b;
+    -fx-background-radius: 6;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10 14;
+}
+.button:hover { -fx-background-color: #0f573c; }
+.list-view { -fx-background-color: #f7f9f8; -fx-background-radius: 5; }

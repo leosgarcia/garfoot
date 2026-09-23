@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.garfoot.ui.controller.VisaoClubeController"
+            stylesheets="@../css/visao-clube.css" prefWidth="980" prefHeight="640">
+    <top>
+        <VBox spacing="4" styleClass="header">
+            <padding><Insets top="22" right="28" bottom="22" left="28"/></padding>
+            <Label text="Garfoot" styleClass="brand"/>
+            <Label fx:id="clubeNome" text="Clube" styleClass="club-name"/>
+        </VBox>
+    </top>
+    <center>
+        <HBox spacing="18">
+            <padding><Insets top="20" right="24" bottom="12" left="24"/></padding>
+            <VBox spacing="10" styleClass="panel" HBox.hgrow="ALWAYS">
+                <Label text="Elenco" styleClass="section-title"/>
+                <ListView fx:id="elencoLista" VBox.vgrow="ALWAYS"/>
+            </VBox>
+            <VBox spacing="16" prefWidth="390">
+                <VBox spacing="8" styleClass="panel">
+                    <Label text="Próxima partida" styleClass="section-title"/>
+                    <Label fx:id="proximaPartida" text="Nenhuma partida agendada" wrapText="true"/>
+                    <Button fx:id="avancarButton" text="Avançar rodada" onAction="#avancarRodada"/>
+                </VBox>
+                <VBox spacing="8" styleClass="panel" VBox.vgrow="ALWAYS">
+                    <Label text="Classificação" styleClass="section-title"/>
+                    <ListView fx:id="classificacaoLista" VBox.vgrow="ALWAYS"/>
+                </VBox>
+                <VBox spacing="8" styleClass="panel">
+                    <Label text="Último resultado" styleClass="section-title"/>
+                    <Label fx:id="ultimoResultado" text="Ainda não há resultado" wrapText="true"/>
+                </VBox>
+            </VBox>
+        </HBox>
+    </center>
+    <bottom>
+        <Label fx:id="estadoLabel" text="Pronto" styleClass="status">
+            <BorderPane.margin><Insets top="8" right="24" bottom="16" left="24"/></BorderPane.margin>
+        </Label>
+    </bottom>
+</BorderPane>

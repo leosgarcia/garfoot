@@ -1,0 +1,3602 @@
+[
+  {
+    "source_id": "17776",
+    "name": "Associação Chapecoense de Futebol",
+    "players": [
+      {
+        "source_id": "722133",
+        "name": "Carvalheira",
+        "date_of_birth": "1999-05-26 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "176",
+        "market_value_in_eur": "2500000"
+      },
+      {
+        "source_id": "672202",
+        "name": "Camilo",
+        "date_of_birth": "1999-02-23 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "176",
+        "market_value_in_eur": "2000000"
+      },
+      {
+        "source_id": "698784",
+        "name": "Doma",
+        "date_of_birth": "1998-08-29 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "187",
+        "market_value_in_eur": "1200000"
+      },
+      {
+        "source_id": "1051322",
+        "name": "Robert Santos",
+        "date_of_birth": "2003-07-20 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "180",
+        "market_value_in_eur": "1000000"
+      },
+      {
+        "source_id": "1082820",
+        "name": "Italo Vargas",
+        "date_of_birth": "2002-10-13 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "18",
+        "market_value_in_eur": "1000000"
+      },
+      {
+        "source_id": "935978",
+        "name": "João Vitor",
+        "date_of_birth": "1998-03-31 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "178",
+        "market_value_in_eur": "900000"
+      },
+      {
+        "source_id": "646432",
+        "name": "Higor Meritão",
+        "date_of_birth": "1994-06-23 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "186",
+        "market_value_in_eur": "800000"
+      },
+      {
+        "source_id": "740085",
+        "name": "Ênio",
+        "date_of_birth": "2001-03-03 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "168",
+        "market_value_in_eur": "800000"
+      },
+      {
+        "source_id": "802809",
+        "name": "Maurício Garcez",
+        "date_of_birth": "1997-03-16 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "183",
+        "market_value_in_eur": "800000"
+      },
+      {
+        "source_id": "636507",
+        "name": "Victor Caetano",
+        "date_of_birth": "1997-10-19 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "186",
+        "market_value_in_eur": "700000"
+      },
+      {
+        "source_id": "736652",
+        "name": "João Paulo",
+        "date_of_birth": "1997-07-04 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "187",
+        "market_value_in_eur": "700000"
+      },
+      {
+        "source_id": "514500",
+        "name": "Marcinho",
+        "date_of_birth": "1995-06-08 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "176",
+        "market_value_in_eur": "650000"
+      },
+      {
+        "source_id": "415843",
+        "name": "Walter Clar",
+        "date_of_birth": "1994-09-27 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "177",
+        "market_value_in_eur": "500000"
+      },
+      {
+        "source_id": "671292",
+        "name": "Bruno Matias",
+        "date_of_birth": "1999-02-24 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "172",
+        "market_value_in_eur": "500000"
+      },
+      {
+        "source_id": "871650",
+        "name": "Mancha",
+        "date_of_birth": "2001-02-13 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "180",
+        "market_value_in_eur": "500000"
+      },
+      {
+        "source_id": "598974",
+        "name": "Anderson",
+        "date_of_birth": "1998-03-05 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "190",
+        "market_value_in_eur": "450000"
+      },
+      {
+        "source_id": "311182",
+        "name": "Kevin Ramírez",
+        "date_of_birth": "1994-04-01 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "179",
+        "market_value_in_eur": "400000"
+      },
+      {
+        "source_id": "594006",
+        "name": "Marcos Vinícius",
+        "date_of_birth": "1997-03-26 00:00:00",
+        "position": "Right-Back",
+        "height_in_cm": "176",
+        "market_value_in_eur": "400000"
+      }
+    ]
+  },
+  {
+    "source_id": "2029",
+    "name": "Ceará Sporting Club",
+    "players": [
+      {
+        "source_id": "646404",
+        "name": "Zanocelo",
+        "date_of_birth": "2001-01-30 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "185",
+        "market_value_in_eur": "2000000"
+      },
+      {
+        "source_id": "213368",
+        "name": "Pedro Henrique",
+        "date_of_birth": "1990-06-16 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "179",
+        "market_value_in_eur": "1700000"
+      },
+      {
+        "source_id": "290388",
+        "name": "Rafael Ramos",
+        "date_of_birth": "1995-01-09 00:00:00",
+        "position": "Right-Back",
+        "height_in_cm": "174",
+        "market_value_in_eur": "700000"
+      },
+      {
+        "source_id": "214701",
+        "name": "Bruno",
+        "date_of_birth": "1994-03-16 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "197",
+        "market_value_in_eur": "200000"
+      },
+      {
+        "source_id": "106281",
+        "name": "Vina",
+        "date_of_birth": "1991-04-15 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "177",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "145573",
+        "name": "Richardson",
+        "date_of_birth": "1991-08-17 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "174",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "159893",
+        "name": "Richard Costa",
+        "date_of_birth": "1991-03-01 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "186",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "265693",
+        "name": "Luiz Otávio",
+        "date_of_birth": "1988-09-14 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "190",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "282145",
+        "name": "Jorge Recalde",
+        "date_of_birth": "1992-05-08 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "178",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "291963",
+        "name": "Fernando Miguel",
+        "date_of_birth": "1985-02-02 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "191",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "329845",
+        "name": "Aylon",
+        "date_of_birth": "1992-04-07 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "180",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "371025",
+        "name": "Ramon Menezes",
+        "date_of_birth": "1995-05-03 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "186",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "375690",
+        "name": "Éder",
+        "date_of_birth": "1995-04-05 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "184",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "442258",
+        "name": "Nicolas",
+        "date_of_birth": "1997-02-24 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "181",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "515068",
+        "name": "Lourenço",
+        "date_of_birth": "1997-09-07 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "169",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "550178",
+        "name": "Bruno Tubarão",
+        "date_of_birth": "1995-03-05 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "180",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "678853",
+        "name": "Matheus Araújo",
+        "date_of_birth": "2002-05-22 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "176",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "688310",
+        "name": "Lucas Lima",
+        "date_of_birth": "2000-07-04 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "180",
+        "market_value_in_eur": null
+      }
+    ]
+  },
+  {
+    "source_id": "978",
+    "name": "Club de Regatas Vasco da Gama",
+    "players": [
+      {
+        "source_id": "957461",
+        "name": "Andrés Gómez",
+        "date_of_birth": "2002-09-12 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "170",
+        "market_value_in_eur": "11000000"
+      },
+      {
+        "source_id": "891353",
+        "name": "Cuiabano",
+        "date_of_birth": "2003-02-16 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "179",
+        "market_value_in_eur": "10000000"
+      },
+      {
+        "source_id": "958598",
+        "name": "Robert Renan",
+        "date_of_birth": "2003-10-11 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "186",
+        "market_value_in_eur": "10000000"
+      },
+      {
+        "source_id": "474589",
+        "name": "Carlos Cuesta",
+        "date_of_birth": "1999-03-09 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "179",
+        "market_value_in_eur": "8000000"
+      },
+      {
+        "source_id": "80444",
+        "name": "Philippe Coutinho",
+        "date_of_birth": "1992-06-12 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "172",
+        "market_value_in_eur": "7500000"
+      },
+      {
+        "source_id": "288415",
+        "name": "Léo Jardim",
+        "date_of_birth": "1995-03-20 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "188",
+        "market_value_in_eur": "7000000"
+      },
+      {
+        "source_id": "461937",
+        "name": "Nuno Moreira",
+        "date_of_birth": "1999-06-16 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "175",
+        "market_value_in_eur": "7000000"
+      },
+      {
+        "source_id": "412594",
+        "name": "Paulo Henrique",
+        "date_of_birth": "1996-07-25 00:00:00",
+        "position": "Right-Back",
+        "height_in_cm": "175",
+        "market_value_in_eur": "6000000"
+      },
+      {
+        "source_id": "670201",
+        "name": "Lucas Piton",
+        "date_of_birth": "2000-10-09 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "175",
+        "market_value_in_eur": "6000000"
+      },
+      {
+        "source_id": "743597",
+        "name": "Matheus França",
+        "date_of_birth": "2004-04-01 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "184",
+        "market_value_in_eur": "6000000"
+      },
+      {
+        "source_id": "1083966",
+        "name": "Cauan Barros",
+        "date_of_birth": "2004-05-06 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "183",
+        "market_value_in_eur": "5000000"
+      },
+      {
+        "source_id": "663319",
+        "name": "Marino Hinestroza",
+        "date_of_birth": "2002-07-08 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "170",
+        "market_value_in_eur": "4800000"
+      },
+      {
+        "source_id": "412366",
+        "name": "Brenner",
+        "date_of_birth": "2000-01-16 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "175",
+        "market_value_in_eur": "4000000"
+      },
+      {
+        "source_id": "504882",
+        "name": "Claudio Spinelli",
+        "date_of_birth": "1997-01-21 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "180",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "868891",
+        "name": "Adson",
+        "date_of_birth": "2000-10-06 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "171",
+        "market_value_in_eur": "2500000"
+      },
+      {
+        "source_id": "1083970",
+        "name": "JP",
+        "date_of_birth": "2005-04-19 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "182",
+        "market_value_in_eur": "2000000"
+      },
+      {
+        "source_id": "37647",
+        "name": "Dimitri Payet",
+        "date_of_birth": "1987-03-29 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "175",
+        "market_value_in_eur": "1800000"
+      },
+      {
+        "source_id": "303140",
+        "name": "Mauricio Lemos",
+        "date_of_birth": "1995-12-28 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "187",
+        "market_value_in_eur": "1500000"
+      }
+    ]
+  },
+  {
+    "source_id": "330",
+    "name": "Clube Atlético Mineiro",
+    "players": [
+      {
+        "source_id": "476352",
+        "name": "Renan Lodi",
+        "date_of_birth": "1998-04-08 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "173",
+        "market_value_in_eur": "11000000"
+      },
+      {
+        "source_id": "362667",
+        "name": "Mateo Cassierra",
+        "date_of_birth": "1997-04-13 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "186",
+        "market_value_in_eur": "8000000"
+      },
+      {
+        "source_id": "749559",
+        "name": "Victor Hugo",
+        "date_of_birth": "2004-05-11 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "184",
+        "market_value_in_eur": "7000000"
+      },
+      {
+        "source_id": "503052",
+        "name": "Tomás Cuello",
+        "date_of_birth": "2000-03-05 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "176",
+        "market_value_in_eur": "6000000"
+      },
+      {
+        "source_id": "997714",
+        "name": "Alexsander",
+        "date_of_birth": "2003-10-08 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "178",
+        "market_value_in_eur": "5500000"
+      },
+      {
+        "source_id": "330085",
+        "name": "Gustavo Scarpa",
+        "date_of_birth": "1994-01-05 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "177",
+        "market_value_in_eur": "4500000"
+      },
+      {
+        "source_id": "379807",
+        "name": "Lyanco",
+        "date_of_birth": "1997-02-01 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "187",
+        "market_value_in_eur": "4500000"
+      },
+      {
+        "source_id": "400960",
+        "name": "Alan Franco",
+        "date_of_birth": "1998-08-21 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "175",
+        "market_value_in_eur": "4500000"
+      },
+      {
+        "source_id": "740295",
+        "name": "Natanael",
+        "date_of_birth": "2002-01-05 00:00:00",
+        "position": "Right-Back",
+        "height_in_cm": "172",
+        "market_value_in_eur": "4500000"
+      },
+      {
+        "source_id": "555015",
+        "name": "Ruan",
+        "date_of_birth": "1999-06-07 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "187",
+        "market_value_in_eur": "4000000"
+      },
+      {
+        "source_id": "450241",
+        "name": "Angelo Preciado",
+        "date_of_birth": "1998-02-18 00:00:00",
+        "position": "Right-Back",
+        "height_in_cm": "174",
+        "market_value_in_eur": "3500000"
+      },
+      {
+        "source_id": "897051",
+        "name": "Alan Minda",
+        "date_of_birth": "2003-05-14 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "174",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "1152154",
+        "name": "Tomás Pérez",
+        "date_of_birth": "2005-08-26 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "182",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "312678",
+        "name": "Léo Duarte",
+        "date_of_birth": "1996-07-17 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "183",
+        "market_value_in_eur": "2500000"
+      },
+      {
+        "source_id": "553459",
+        "name": "Igor Gomes",
+        "date_of_birth": "1999-03-17 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "183",
+        "market_value_in_eur": "2500000"
+      },
+      {
+        "source_id": "421935",
+        "name": "Maycon",
+        "date_of_birth": "1997-07-15 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "175",
+        "market_value_in_eur": "2000000"
+      },
+      {
+        "source_id": "627226",
+        "name": "Reinier",
+        "date_of_birth": "2002-01-19 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "185",
+        "market_value_in_eur": "2000000"
+      },
+      {
+        "source_id": "273000",
+        "name": "Júnior Alonso",
+        "date_of_birth": "1993-02-09 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "185",
+        "market_value_in_eur": "1500000"
+      }
+    ]
+  },
+  {
+    "source_id": "679",
+    "name": "Clube Atlético Paranaense",
+    "players": [
+      {
+        "source_id": "580461",
+        "name": "Kevin Viveros",
+        "date_of_birth": "2000-04-26 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "180",
+        "market_value_in_eur": "10000000"
+      },
+      {
+        "source_id": "829969",
+        "name": "Lucas Esquivel",
+        "date_of_birth": "2001-10-14 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "183",
+        "market_value_in_eur": "7000000"
+      },
+      {
+        "source_id": "1500420",
+        "name": "Bruninho",
+        "date_of_birth": "2008-08-16 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "175",
+        "market_value_in_eur": "7000000"
+      },
+      {
+        "source_id": "585747",
+        "name": "Juan Portilla",
+        "date_of_birth": "1998-09-12 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "181",
+        "market_value_in_eur": "5000000"
+      },
+      {
+        "source_id": "1004728",
+        "name": "Dudu",
+        "date_of_birth": "2006-01-01 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "177",
+        "market_value_in_eur": "5000000"
+      },
+      {
+        "source_id": "711600",
+        "name": "Bruno Zapelli",
+        "date_of_birth": "2002-05-16 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "183",
+        "market_value_in_eur": "4500000"
+      },
+      {
+        "source_id": "696719",
+        "name": "Gastón Benavídez",
+        "date_of_birth": "1995-10-23 00:00:00",
+        "position": "Right-Back",
+        "height_in_cm": "175",
+        "market_value_in_eur": "3500000"
+      },
+      {
+        "source_id": "1094387",
+        "name": "Chiqueti",
+        "date_of_birth": "2005-09-02 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "176",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "1233473",
+        "name": "Arthur Dias",
+        "date_of_birth": "2007-04-10 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "188",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "1052819",
+        "name": "Léo Derik",
+        "date_of_birth": "2005-07-24 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "166",
+        "market_value_in_eur": "2500000"
+      },
+      {
+        "source_id": "231614",
+        "name": "Gilberto",
+        "date_of_birth": "1993-03-07 00:00:00",
+        "position": "Right-Back",
+        "height_in_cm": "181",
+        "market_value_in_eur": "2200000"
+      },
+      {
+        "source_id": "593205",
+        "name": "Julimar",
+        "date_of_birth": "2001-01-25 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "188",
+        "market_value_in_eur": "2000000"
+      },
+      {
+        "source_id": "649184",
+        "name": "Carlos Terán",
+        "date_of_birth": "2000-09-24 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "188",
+        "market_value_in_eur": "2000000"
+      },
+      {
+        "source_id": "743586",
+        "name": "Mycael",
+        "date_of_birth": "2004-03-12 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "191",
+        "market_value_in_eur": "2000000"
+      },
+      {
+        "source_id": "1004738",
+        "name": "João Cruz",
+        "date_of_birth": "2006-05-12 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "172",
+        "market_value_in_eur": "2000000"
+      },
+      {
+        "source_id": "1071293",
+        "name": "Jorge Rivaldo",
+        "date_of_birth": "2003-09-28 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "189",
+        "market_value_in_eur": "2000000"
+      },
+      {
+        "source_id": "1093864",
+        "name": "Gilberto Junior",
+        "date_of_birth": "2005-03-27 00:00:00",
+        "position": "Right-Back",
+        "height_in_cm": "165",
+        "market_value_in_eur": "2000000"
+      },
+      {
+        "source_id": "570521",
+        "name": "Juan Felipe Aguirre",
+        "date_of_birth": "1996-08-29 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "186",
+        "market_value_in_eur": "1500000"
+      }
+    ]
+  },
+  {
+    "source_id": "614",
+    "name": "Clube de Regatas do Flamengo",
+    "players": [
+      {
+        "source_id": "432895",
+        "name": "Pedro",
+        "date_of_birth": "1997-06-20 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "185",
+        "market_value_in_eur": "20000000"
+      },
+      {
+        "source_id": "694928",
+        "name": "Samuel Lino",
+        "date_of_birth": "1999-12-23 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "177",
+        "market_value_in_eur": "15000000"
+      },
+      {
+        "source_id": "248410",
+        "name": "Giorgian de Arrascaeta",
+        "date_of_birth": "1994-06-01 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "177",
+        "market_value_in_eur": "14000000"
+      },
+      {
+        "source_id": "354145",
+        "name": "Jorge Carrascal",
+        "date_of_birth": "1998-05-25 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "180",
+        "market_value_in_eur": "13000000"
+      },
+      {
+        "source_id": "288431",
+        "name": "Léo Pereira",
+        "date_of_birth": "1996-01-31 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "189",
+        "market_value_in_eur": "12000000"
+      },
+      {
+        "source_id": "374136",
+        "name": "Léo Ortiz",
+        "date_of_birth": "1996-01-03 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "185",
+        "market_value_in_eur": "12000000"
+      },
+      {
+        "source_id": "352324",
+        "name": "Agustín Rossi",
+        "date_of_birth": "1995-08-21 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "193",
+        "market_value_in_eur": "10000000"
+      },
+      {
+        "source_id": "428783",
+        "name": "Vitão",
+        "date_of_birth": "2000-02-02 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "185",
+        "market_value_in_eur": "10000000"
+      },
+      {
+        "source_id": "931007",
+        "name": "Evertton Araújo",
+        "date_of_birth": "2003-02-28 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "184",
+        "market_value_in_eur": "10000000"
+      },
+      {
+        "source_id": "592735",
+        "name": "Gonzalo Plata",
+        "date_of_birth": "2000-11-01 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "178",
+        "market_value_in_eur": "9000000"
+      },
+      {
+        "source_id": "397458",
+        "name": "Nicolás de la Cruz",
+        "date_of_birth": "1997-06-01 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "167",
+        "market_value_in_eur": "8000000"
+      },
+      {
+        "source_id": "321239",
+        "name": "Everton",
+        "date_of_birth": "1996-03-22 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "174",
+        "market_value_in_eur": "7000000"
+      },
+      {
+        "source_id": "435485",
+        "name": "Luiz Araújo",
+        "date_of_birth": "1996-06-02 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "175",
+        "market_value_in_eur": "7000000"
+      },
+      {
+        "source_id": "476344",
+        "name": "Emerson Royal",
+        "date_of_birth": "1999-01-14 00:00:00",
+        "position": "Right-Back",
+        "height_in_cm": "183",
+        "market_value_in_eur": "5000000"
+      },
+      {
+        "source_id": "610417",
+        "name": "Andrew",
+        "date_of_birth": "2001-07-01 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "189",
+        "market_value_in_eur": "5000000"
+      },
+      {
+        "source_id": "1082602",
+        "name": "Wallace Yan",
+        "date_of_birth": "2005-02-08 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "182",
+        "market_value_in_eur": "5000000"
+      },
+      {
+        "source_id": "215616",
+        "name": "Erick Pulgar",
+        "date_of_birth": "1994-01-15 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "188",
+        "market_value_in_eur": "4500000"
+      },
+      {
+        "source_id": "1009030",
+        "name": "Lorran",
+        "date_of_birth": "2006-07-04 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "180",
+        "market_value_in_eur": "4500000"
+      }
+    ]
+  },
+  {
+    "source_id": "10997",
+    "name": "Clube do Remo",
+    "players": [
+      {
+        "source_id": "663077",
+        "name": "Leonel Picco",
+        "date_of_birth": "1998-10-22 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "192",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "585876",
+        "name": "Gabriel Taliari",
+        "date_of_birth": "1997-04-13 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "177",
+        "market_value_in_eur": "1800000"
+      },
+      {
+        "source_id": "672292",
+        "name": "João Lucas",
+        "date_of_birth": "1998-03-09 00:00:00",
+        "position": "Right-Back",
+        "height_in_cm": "181",
+        "market_value_in_eur": "1500000"
+      },
+      {
+        "source_id": "800732",
+        "name": "Diego Hernández",
+        "date_of_birth": "2000-06-22 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "175",
+        "market_value_in_eur": "1500000"
+      },
+      {
+        "source_id": "401521",
+        "name": "Braian Cufré",
+        "date_of_birth": "1996-12-15 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "179",
+        "market_value_in_eur": "1200000"
+      },
+      {
+        "source_id": "323452",
+        "name": "Zé Welison",
+        "date_of_birth": "1995-03-11 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "177",
+        "market_value_in_eur": "1000000"
+      },
+      {
+        "source_id": "364257",
+        "name": "Ivan",
+        "date_of_birth": "1997-07-02 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "197",
+        "market_value_in_eur": "1000000"
+      },
+      {
+        "source_id": "390368",
+        "name": "Vitor Bueno",
+        "date_of_birth": "1994-09-05 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "183",
+        "market_value_in_eur": "1000000"
+      },
+      {
+        "source_id": "363173",
+        "name": "Carlinhos",
+        "date_of_birth": "1997-02-12 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "196",
+        "market_value_in_eur": "900000"
+      },
+      {
+        "source_id": "617687",
+        "name": "Matheus Alexandre",
+        "date_of_birth": "1999-04-07 00:00:00",
+        "position": "Right-Back",
+        "height_in_cm": "188",
+        "market_value_in_eur": "900000"
+      },
+      {
+        "source_id": "298410",
+        "name": "João Pedro",
+        "date_of_birth": "1996-11-13 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "185",
+        "market_value_in_eur": "800000"
+      },
+      {
+        "source_id": "490760",
+        "name": "Tchamba",
+        "date_of_birth": "1998-07-10 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "191",
+        "market_value_in_eur": "800000"
+      },
+      {
+        "source_id": "726092",
+        "name": "Jajá",
+        "date_of_birth": "1998-11-12 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "175",
+        "market_value_in_eur": "800000"
+      },
+      {
+        "source_id": "1089609",
+        "name": "Kayky Almeida",
+        "date_of_birth": "2005-05-01 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "185",
+        "market_value_in_eur": "800000"
+      },
+      {
+        "source_id": "653349",
+        "name": "Jáderson",
+        "date_of_birth": "2000-08-12 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "170",
+        "market_value_in_eur": "750000"
+      },
+      {
+        "source_id": "1091022",
+        "name": "David Braga",
+        "date_of_birth": "2001-12-11 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "186",
+        "market_value_in_eur": "650000"
+      },
+      {
+        "source_id": "265660",
+        "name": "Yago Pikachu",
+        "date_of_birth": "1992-06-05 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "172",
+        "market_value_in_eur": "600000"
+      },
+      {
+        "source_id": "333159",
+        "name": "Patrick",
+        "date_of_birth": "1992-07-29 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "176",
+        "market_value_in_eur": "600000"
+      }
+    ]
+  },
+  {
+    "source_id": "776",
+    "name": "Coritiba Foot Ball Club",
+    "players": [
+      {
+        "source_id": "1090819",
+        "name": "Lucas Ronier",
+        "date_of_birth": "2004-11-26 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "165",
+        "market_value_in_eur": "6000000"
+      },
+      {
+        "source_id": "974488",
+        "name": "Pedro Morisco",
+        "date_of_birth": "2004-01-10 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "191",
+        "market_value_in_eur": "5000000"
+      },
+      {
+        "source_id": "895926",
+        "name": "Joaquín Lavega",
+        "date_of_birth": "2005-02-03 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "172",
+        "market_value_in_eur": "4000000"
+      },
+      {
+        "source_id": "1089955",
+        "name": "JP Chermont",
+        "date_of_birth": "2006-01-18 00:00:00",
+        "position": "Right-Back",
+        "height_in_cm": "181",
+        "market_value_in_eur": "4000000"
+      },
+      {
+        "source_id": "542598",
+        "name": "Breno Lopes",
+        "date_of_birth": "1996-01-24 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "178",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "593382",
+        "name": "Jacy",
+        "date_of_birth": "1997-07-11 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "192",
+        "market_value_in_eur": "2500000"
+      },
+      {
+        "source_id": "587786",
+        "name": "Felipe Jonatan",
+        "date_of_birth": "1998-02-15 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "176",
+        "market_value_in_eur": "2000000"
+      },
+      {
+        "source_id": "570522",
+        "name": "Sebastián Gómez",
+        "date_of_birth": "1996-06-03 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "177",
+        "market_value_in_eur": "1800000"
+      },
+      {
+        "source_id": "350342",
+        "name": "Fernando Sobral",
+        "date_of_birth": "1994-12-17 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "178",
+        "market_value_in_eur": "1500000"
+      },
+      {
+        "source_id": "362844",
+        "name": "Pedro Rocha",
+        "date_of_birth": "1994-10-01 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "175",
+        "market_value_in_eur": "1500000"
+      },
+      {
+        "source_id": "834443",
+        "name": "Tiago Cóser",
+        "date_of_birth": "2004-01-16 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "191",
+        "market_value_in_eur": "1500000"
+      },
+      {
+        "source_id": "704558",
+        "name": "Fabinho",
+        "date_of_birth": "1999-11-18 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "181",
+        "market_value_in_eur": "1000000"
+      },
+      {
+        "source_id": "841263",
+        "name": "Pedro Rangel",
+        "date_of_birth": "2000-06-29 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "192",
+        "market_value_in_eur": "1000000"
+      },
+      {
+        "source_id": "876874",
+        "name": "Vini Paulista",
+        "date_of_birth": "2001-03-22 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "179",
+        "market_value_in_eur": "1000000"
+      },
+      {
+        "source_id": "985351",
+        "name": "Renato Marques",
+        "date_of_birth": "2003-12-09 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "180",
+        "market_value_in_eur": "1000000"
+      },
+      {
+        "source_id": "598765",
+        "name": "Brian Ocampo",
+        "date_of_birth": "1999-06-25 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "172",
+        "market_value_in_eur": "900000"
+      },
+      {
+        "source_id": "742073",
+        "name": "Wallisson",
+        "date_of_birth": "1997-09-23 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "184",
+        "market_value_in_eur": "900000"
+      },
+      {
+        "source_id": "417084",
+        "name": "Keiller",
+        "date_of_birth": "1996-10-29 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "193",
+        "market_value_in_eur": "500000"
+      }
+    ]
+  },
+  {
+    "source_id": "609",
+    "name": "Cruzeiro Esporte Clube",
+    "players": [
+      {
+        "source_id": "620477",
+        "name": "Kaio Jorge",
+        "date_of_birth": "2002-01-24 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "182",
+        "market_value_in_eur": "25000000"
+      },
+      {
+        "source_id": "341705",
+        "name": "Gerson",
+        "date_of_birth": "1997-05-20 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "184",
+        "market_value_in_eur": "18000000"
+      },
+      {
+        "source_id": "225984",
+        "name": "Matheus Pereira",
+        "date_of_birth": "1996-05-05 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "175",
+        "market_value_in_eur": "14000000"
+      },
+      {
+        "source_id": "879217",
+        "name": "Kaiki",
+        "date_of_birth": "2003-03-08 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "172",
+        "market_value_in_eur": "14000000"
+      },
+      {
+        "source_id": "432773",
+        "name": "Fabrício Bruno",
+        "date_of_birth": "1996-02-12 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "190",
+        "market_value_in_eur": "12000000"
+      },
+      {
+        "source_id": "658678",
+        "name": "Christian",
+        "date_of_birth": "2000-12-19 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "178",
+        "market_value_in_eur": "12000000"
+      },
+      {
+        "source_id": "512385",
+        "name": "Luis Sinisterra",
+        "date_of_birth": "1999-06-17 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "172",
+        "market_value_in_eur": "11000000"
+      },
+      {
+        "source_id": "1074584",
+        "name": "Keny Arroyo",
+        "date_of_birth": "2006-02-14 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "176",
+        "market_value_in_eur": "10000000"
+      },
+      {
+        "source_id": "1275068",
+        "name": "Kauã Prates",
+        "date_of_birth": "2008-08-12 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "184",
+        "market_value_in_eur": "10000000"
+      },
+      {
+        "source_id": "1083207",
+        "name": "Jonathan Jesus",
+        "date_of_birth": "2004-05-27 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "187",
+        "market_value_in_eur": "8000000"
+      },
+      {
+        "source_id": "552549",
+        "name": "Matheus Henrique",
+        "date_of_birth": "1997-12-19 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "175",
+        "market_value_in_eur": "4500000"
+      },
+      {
+        "source_id": "471639",
+        "name": "Gabriel Rojas",
+        "date_of_birth": "1997-06-22 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "173",
+        "market_value_in_eur": "4000000"
+      },
+      {
+        "source_id": "1182665",
+        "name": "Néiser Villarreal",
+        "date_of_birth": "2005-04-24 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "186",
+        "market_value_in_eur": "4000000"
+      },
+      {
+        "source_id": "236202",
+        "name": "Wanderson",
+        "date_of_birth": "1994-10-07 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "175",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "341710",
+        "name": "William",
+        "date_of_birth": "1995-04-03 00:00:00",
+        "position": "Right-Back",
+        "height_in_cm": "171",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "744024",
+        "name": "João Marcelo",
+        "date_of_birth": "2000-06-13 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "190",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "876739",
+        "name": "Matheus Cunha",
+        "date_of_birth": "2001-05-24 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "193",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "1253814",
+        "name": "Kaique Kenji",
+        "date_of_birth": "2006-01-29 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "178",
+        "market_value_in_eur": "3000000"
+      }
+    ]
+  },
+  {
+    "source_id": "10010",
+    "name": "Esporte Clube Bahia",
+    "players": [
+      {
+        "source_id": "676035",
+        "name": "Luciano Juba",
+        "date_of_birth": "1999-08-29 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "176",
+        "market_value_in_eur": "14000000"
+      },
+      {
+        "source_id": "578872",
+        "name": "Jean Lucas",
+        "date_of_birth": "1998-06-22 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "181",
+        "market_value_in_eur": "13000000"
+      },
+      {
+        "source_id": "688593",
+        "name": "Santiago Ramos Mingo",
+        "date_of_birth": "2001-11-21 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "186",
+        "market_value_in_eur": "12000000"
+      },
+      {
+        "source_id": "936544",
+        "name": "Erick Pulga",
+        "date_of_birth": "2000-10-02 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "169",
+        "market_value_in_eur": "11000000"
+      },
+      {
+        "source_id": "1220614",
+        "name": "Ruan Pablo",
+        "date_of_birth": "2008-07-23 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "183",
+        "market_value_in_eur": "8000000"
+      },
+      {
+        "source_id": "468304",
+        "name": "Rodrigo Nestor",
+        "date_of_birth": "2000-08-09 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "175",
+        "market_value_in_eur": "7000000"
+      },
+      {
+        "source_id": "727751",
+        "name": "Caio Alexandre",
+        "date_of_birth": "1999-02-24 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "174",
+        "market_value_in_eur": "7000000"
+      },
+      {
+        "source_id": "625569",
+        "name": "Nicolás Acevedo",
+        "date_of_birth": "1999-04-14 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "173",
+        "market_value_in_eur": "6000000"
+      },
+      {
+        "source_id": "657746",
+        "name": "Cristian Olivera",
+        "date_of_birth": "2002-04-17 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "170",
+        "market_value_in_eur": "5000000"
+      },
+      {
+        "source_id": "633212",
+        "name": "Erick",
+        "date_of_birth": "1997-11-14 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "176",
+        "market_value_in_eur": "4000000"
+      },
+      {
+        "source_id": "740501",
+        "name": "Gabriel Xavier",
+        "date_of_birth": "2001-05-06 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "190",
+        "market_value_in_eur": "4000000"
+      },
+      {
+        "source_id": "888493",
+        "name": "Alejo Veliz",
+        "date_of_birth": "2003-09-19 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "186",
+        "market_value_in_eur": "4000000"
+      },
+      {
+        "source_id": "1328021",
+        "name": "Dell",
+        "date_of_birth": "2008-06-09 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "174",
+        "market_value_in_eur": "4000000"
+      },
+      {
+        "source_id": "520468",
+        "name": "Iago",
+        "date_of_birth": "1997-03-23 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "181",
+        "market_value_in_eur": "3500000"
+      },
+      {
+        "source_id": "524446",
+        "name": "Kanu",
+        "date_of_birth": "1997-03-07 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "186",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "482144",
+        "name": "Michel Araújo",
+        "date_of_birth": "1996-09-28 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "178",
+        "market_value_in_eur": "2500000"
+      },
+      {
+        "source_id": "387925",
+        "name": "Ronaldo",
+        "date_of_birth": "1996-08-22 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "194",
+        "market_value_in_eur": "2000000"
+      },
+      {
+        "source_id": "984480",
+        "name": "Mateo Sanabria",
+        "date_of_birth": "2004-03-31 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "178",
+        "market_value_in_eur": "2000000"
+      }
+    ]
+  },
+  {
+    "source_id": "10492",
+    "name": "Esporte Clube Juventude",
+    "players": [
+      {
+        "source_id": "788861",
+        "name": "Matheus Babi",
+        "date_of_birth": "1997-07-18 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "191",
+        "market_value_in_eur": "1500000"
+      },
+      {
+        "source_id": "430761",
+        "name": "Lucas Fernandes",
+        "date_of_birth": "1997-09-20 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "175",
+        "market_value_in_eur": "1200000"
+      },
+      {
+        "source_id": "164013",
+        "name": "Gilberto",
+        "date_of_birth": "1989-06-05 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "178",
+        "market_value_in_eur": "700000"
+      },
+      {
+        "source_id": "654384",
+        "name": "Vitor Pernambuco",
+        "date_of_birth": "1998-04-28 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "187",
+        "market_value_in_eur": "700000"
+      },
+      {
+        "source_id": "978057",
+        "name": "Petterson",
+        "date_of_birth": "2004-01-04 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "181",
+        "market_value_in_eur": "700000"
+      },
+      {
+        "source_id": "348769",
+        "name": "Marcelo Hermes",
+        "date_of_birth": "1995-02-01 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "177",
+        "market_value_in_eur": "450000"
+      },
+      {
+        "source_id": "29091",
+        "name": "Nenê",
+        "date_of_birth": "1981-07-19 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "181",
+        "market_value_in_eur": "200000"
+      },
+      {
+        "source_id": "160188",
+        "name": "Marcão",
+        "date_of_birth": "1992-03-06 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "195",
+        "market_value_in_eur": "50000"
+      },
+      {
+        "source_id": "75080",
+        "name": "Alan Ruschel",
+        "date_of_birth": "1989-08-23 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "176",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "203822",
+        "name": "Ruan Carneiro",
+        "date_of_birth": "1990-03-28 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "195",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "266070",
+        "name": "Gastón Guruceaga",
+        "date_of_birth": "1995-03-15 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "194",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "329738",
+        "name": "Reginaldo",
+        "date_of_birth": "1993-02-22 00:00:00",
+        "position": "Right-Back",
+        "height_in_cm": "174",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "363174",
+        "name": "Rodrigo Sam",
+        "date_of_birth": "1995-07-24 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "187",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "379369",
+        "name": "Giovanny",
+        "date_of_birth": "1997-09-19 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "175",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "519877",
+        "name": "Dudu Vieira",
+        "date_of_birth": "1994-02-20 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "176",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "625333",
+        "name": "Rafael Bilu",
+        "date_of_birth": "1999-04-21 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "174",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "667411",
+        "name": "Gustavo",
+        "date_of_birth": "1993-03-10 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "187",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "675047",
+        "name": "Daniel Peixoto",
+        "date_of_birth": "1997-06-30 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "181",
+        "market_value_in_eur": null
+      }
+    ]
+  },
+  {
+    "source_id": "2125",
+    "name": "Esporte Clube Vitória",
+    "players": [
+      {
+        "source_id": "365368",
+        "name": "Matheuzinho",
+        "date_of_birth": "1997-10-18 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "165",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "432166",
+        "name": "Luan Cândido",
+        "date_of_birth": "2001-02-02 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "187",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "323954",
+        "name": "Walace",
+        "date_of_birth": "1995-04-04 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "188",
+        "market_value_in_eur": "2500000"
+      },
+      {
+        "source_id": "515638",
+        "name": "Erick",
+        "date_of_birth": "1997-12-10 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "173",
+        "market_value_in_eur": "2500000"
+      },
+      {
+        "source_id": "552242",
+        "name": "Baralhas",
+        "date_of_birth": "1998-10-10 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "178",
+        "market_value_in_eur": "2500000"
+      },
+      {
+        "source_id": "645602",
+        "name": "Lucas Arcanjo",
+        "date_of_birth": "1998-08-08 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "189",
+        "market_value_in_eur": "2500000"
+      },
+      {
+        "source_id": "663578",
+        "name": "Ramon",
+        "date_of_birth": "2001-03-13 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "179",
+        "market_value_in_eur": "2000000"
+      },
+      {
+        "source_id": "1225755",
+        "name": "Diego Tarzia",
+        "date_of_birth": "2003-04-26 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "174",
+        "market_value_in_eur": "2000000"
+      },
+      {
+        "source_id": "323740",
+        "name": "Aitor Cantalapiedra",
+        "date_of_birth": "1996-02-10 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "177",
+        "market_value_in_eur": "1800000"
+      },
+      {
+        "source_id": "646677",
+        "name": "Riccieli",
+        "date_of_birth": "1998-09-17 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "187",
+        "market_value_in_eur": "1800000"
+      },
+      {
+        "source_id": "697845",
+        "name": "Claudinho",
+        "date_of_birth": "2000-09-24 00:00:00",
+        "position": "Right-Back",
+        "height_in_cm": "180",
+        "market_value_in_eur": "1700000"
+      },
+      {
+        "source_id": "531916",
+        "name": "Pedro Henrique",
+        "date_of_birth": "1996-11-08 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "188",
+        "market_value_in_eur": "1500000"
+      },
+      {
+        "source_id": "603122",
+        "name": "Cacá",
+        "date_of_birth": "1999-04-25 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "187",
+        "market_value_in_eur": "1500000"
+      },
+      {
+        "source_id": "657387",
+        "name": "Fabiano",
+        "date_of_birth": "2000-03-14 00:00:00",
+        "position": "Right-Back",
+        "height_in_cm": "175",
+        "market_value_in_eur": "1500000"
+      },
+      {
+        "source_id": "887801",
+        "name": "Nathan Mendes",
+        "date_of_birth": "2002-08-19 00:00:00",
+        "position": "Right-Back",
+        "height_in_cm": "182",
+        "market_value_in_eur": "1500000"
+      },
+      {
+        "source_id": "360526",
+        "name": "Emmanuel Martínez",
+        "date_of_birth": "1994-06-04 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "169",
+        "market_value_in_eur": "1200000"
+      },
+      {
+        "source_id": "468332",
+        "name": "Rúben Ismael",
+        "date_of_birth": "1999-03-25 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "184",
+        "market_value_in_eur": "1200000"
+      },
+      {
+        "source_id": "726472",
+        "name": "Léo Pereira",
+        "date_of_birth": "2000-06-29 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "172",
+        "market_value_in_eur": "1200000"
+      }
+    ]
+  },
+  {
+    "source_id": "2462",
+    "name": "Fluminense Football Club",
+    "players": [
+      {
+        "source_id": "815558",
+        "name": "Martinelli",
+        "date_of_birth": "2001-10-05 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "176",
+        "market_value_in_eur": "16000000"
+      },
+      {
+        "source_id": "982617",
+        "name": "Hércules",
+        "date_of_birth": "2000-10-20 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "178",
+        "market_value_in_eur": "15000000"
+      },
+      {
+        "source_id": "856085",
+        "name": "John Kennedy",
+        "date_of_birth": "2002-05-18 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "173",
+        "market_value_in_eur": "9000000"
+      },
+      {
+        "source_id": "309193",
+        "name": "Jefferson Savarino",
+        "date_of_birth": "1996-11-11 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "168",
+        "market_value_in_eur": "8000000"
+      },
+      {
+        "source_id": "457533",
+        "name": "Agustín Canobbio",
+        "date_of_birth": "1998-10-01 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "176",
+        "market_value_in_eur": "8000000"
+      },
+      {
+        "source_id": "346766",
+        "name": "Guilherme Arana",
+        "date_of_birth": "1997-04-14 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "176",
+        "market_value_in_eur": "6000000"
+      },
+      {
+        "source_id": "898350",
+        "name": "Facundo Bernal",
+        "date_of_birth": "2003-08-21 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "187",
+        "market_value_in_eur": "6000000"
+      },
+      {
+        "source_id": "984416",
+        "name": "Rodrigo Castillo",
+        "date_of_birth": "1999-02-26 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "187",
+        "market_value_in_eur": "6000000"
+      },
+      {
+        "source_id": "1219749",
+        "name": "Riquelme",
+        "date_of_birth": "2007-03-13 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "175",
+        "market_value_in_eur": "6000000"
+      },
+      {
+        "source_id": "315169",
+        "name": "Luciano Acosta",
+        "date_of_birth": "1994-05-31 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "160",
+        "market_value_in_eur": "5000000"
+      },
+      {
+        "source_id": "628750",
+        "name": "Juan Pablo Freytes",
+        "date_of_birth": "2000-01-11 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "182",
+        "market_value_in_eur": "5000000"
+      },
+      {
+        "source_id": "745927",
+        "name": "Kevin Serna",
+        "date_of_birth": "1997-12-17 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "182",
+        "market_value_in_eur": "5000000"
+      },
+      {
+        "source_id": "312294",
+        "name": "Yeferson Soteldo",
+        "date_of_birth": "1997-06-30 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "160",
+        "market_value_in_eur": "3500000"
+      },
+      {
+        "source_id": "495689",
+        "name": "Julián Millán",
+        "date_of_birth": "1998-03-27 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "187",
+        "market_value_in_eur": "3500000"
+      },
+      {
+        "source_id": "1141364",
+        "name": "Jemmes",
+        "date_of_birth": "2000-04-09 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "187",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "546172",
+        "name": "Nonato",
+        "date_of_birth": "1998-03-03 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "175",
+        "market_value_in_eur": "2000000"
+      },
+      {
+        "source_id": "592344",
+        "name": "Guga",
+        "date_of_birth": "1998-08-29 00:00:00",
+        "position": "Right-Back",
+        "height_in_cm": "173",
+        "market_value_in_eur": "2000000"
+      },
+      {
+        "source_id": "624291",
+        "name": "Ignácio",
+        "date_of_birth": "1996-12-01 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "190",
+        "market_value_in_eur": "2000000"
+      }
+    ]
+  },
+  {
+    "source_id": "10870",
+    "name": "Fortaleza Esporte Clube",
+    "players": [
+      {
+        "source_id": "286772",
+        "name": "Vinícius",
+        "date_of_birth": "1994-03-28 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "195",
+        "market_value_in_eur": "1200000"
+      },
+      {
+        "source_id": "175383",
+        "name": "Helton Leite",
+        "date_of_birth": "1990-11-02 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "196",
+        "market_value_in_eur": "1000000"
+      },
+      {
+        "source_id": "592375",
+        "name": "Pablo Roberto",
+        "date_of_birth": "1999-11-14 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "183",
+        "market_value_in_eur": "1000000"
+      },
+      {
+        "source_id": "121986",
+        "name": "Lucas Sasha",
+        "date_of_birth": "1990-03-01 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "177",
+        "market_value_in_eur": "750000"
+      },
+      {
+        "source_id": "46741",
+        "name": "David Luiz",
+        "date_of_birth": "1987-04-22 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "189",
+        "market_value_in_eur": "500000"
+      },
+      {
+        "source_id": "594105",
+        "name": "Pedro Augusto",
+        "date_of_birth": "1997-03-03 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "181",
+        "market_value_in_eur": "500000"
+      },
+      {
+        "source_id": "818068",
+        "name": "Magrão",
+        "date_of_birth": "2000-05-15 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "197",
+        "market_value_in_eur": "300000"
+      },
+      {
+        "source_id": "55250",
+        "name": "Titi",
+        "date_of_birth": "1988-03-12 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "188",
+        "market_value_in_eur": "200000"
+      },
+      {
+        "source_id": "162807",
+        "name": "Juan Martín Lucero",
+        "date_of_birth": "1991-10-10 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "183",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "167724",
+        "name": "Diogo Barbosa",
+        "date_of_birth": "1992-08-17 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "179",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "270420",
+        "name": "João Ricardo",
+        "date_of_birth": "1988-09-06 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "186",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "344626",
+        "name": "Lucas Crispim",
+        "date_of_birth": "1994-06-19 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "178",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "422700",
+        "name": "Tomás Cardona",
+        "date_of_birth": "1995-10-10 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "185",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "445000",
+        "name": "Matheus Rossetto",
+        "date_of_birth": "1996-06-03 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "180",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "476339",
+        "name": "Marcelo Benevenuto",
+        "date_of_birth": "1996-01-07 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "181",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "555016",
+        "name": "Brenno",
+        "date_of_birth": "1999-04-01 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "190",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "685768",
+        "name": "Allanzinho",
+        "date_of_birth": "2000-04-04 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "175",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "802646",
+        "name": "Pierre",
+        "date_of_birth": "2002-03-12 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "181",
+        "market_value_in_eur": null
+      }
+    ]
+  },
+  {
+    "source_id": "210",
+    "name": "Grêmio Foot-Ball Porto Alegrense",
+    "players": [
+      {
+        "source_id": "1228661",
+        "name": "Gabriel Mec",
+        "date_of_birth": "2008-04-11 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "173",
+        "market_value_in_eur": "16000000"
+      },
+      {
+        "source_id": "423604",
+        "name": "Francis Amuzu",
+        "date_of_birth": "1999-08-23 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "169",
+        "market_value_in_eur": "9000000"
+      },
+      {
+        "source_id": "689211",
+        "name": "Juan Nardoni",
+        "date_of_birth": "2002-07-14 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "180",
+        "market_value_in_eur": "9000000"
+      },
+      {
+        "source_id": "525287",
+        "name": "Carlos Vinícius",
+        "date_of_birth": "1995-03-25 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "190",
+        "market_value_in_eur": "7000000"
+      },
+      {
+        "source_id": "611426",
+        "name": "Matías Arezo",
+        "date_of_birth": "2002-11-21 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "177",
+        "market_value_in_eur": "7000000"
+      },
+      {
+        "source_id": "839031",
+        "name": "Leonel Pérez",
+        "date_of_birth": "2004-08-09 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "186",
+        "market_value_in_eur": "6000000"
+      },
+      {
+        "source_id": "950393",
+        "name": "Viery",
+        "date_of_birth": "2005-01-02 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "187",
+        "market_value_in_eur": "6000000"
+      },
+      {
+        "source_id": "723853",
+        "name": "Erick Noriega",
+        "date_of_birth": "2001-10-22 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "185",
+        "market_value_in_eur": "5000000"
+      },
+      {
+        "source_id": "362842",
+        "name": "Arthur Melo",
+        "date_of_birth": "1996-08-12 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "172",
+        "market_value_in_eur": "4000000"
+      },
+      {
+        "source_id": "406675",
+        "name": "Marlon",
+        "date_of_birth": "1997-05-20 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "178",
+        "market_value_in_eur": "4000000"
+      },
+      {
+        "source_id": "436385",
+        "name": "Mathías Villasanti",
+        "date_of_birth": "1997-01-24 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "178",
+        "market_value_in_eur": "4000000"
+      },
+      {
+        "source_id": "874223",
+        "name": "Gustavo Martins",
+        "date_of_birth": "2002-08-11 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "191",
+        "market_value_in_eur": "4000000"
+      },
+      {
+        "source_id": "828045",
+        "name": "Miguel Monsalve",
+        "date_of_birth": "2004-02-27 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "178",
+        "market_value_in_eur": "3500000"
+      },
+      {
+        "source_id": "176140",
+        "name": "Rodrigo Ely",
+        "date_of_birth": "1993-11-03 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "188",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "633428",
+        "name": "José Enamorado",
+        "date_of_birth": "1999-01-13 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "170",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "671572",
+        "name": "Wagner Leonardo",
+        "date_of_birth": "1999-07-23 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "186",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "1024605",
+        "name": "André Henrique",
+        "date_of_birth": "2001-12-17 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "189",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "294798",
+        "name": "Nathan",
+        "date_of_birth": "1996-03-13 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "177",
+        "market_value_in_eur": "2000000"
+      }
+    ]
+  },
+  {
+    "source_id": "3876",
+    "name": "Mirasol Futebol Clube",
+    "players": [
+      {
+        "source_id": "491599",
+        "name": "Antonio Galeano",
+        "date_of_birth": "2000-03-22 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "170",
+        "market_value_in_eur": "3500000"
+      },
+      {
+        "source_id": "680681",
+        "name": "Negueba",
+        "date_of_birth": "1999-12-03 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "173",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "480225",
+        "name": "Alesson",
+        "date_of_birth": "1999-02-16 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "167",
+        "market_value_in_eur": "2500000"
+      },
+      {
+        "source_id": "329843",
+        "name": "Neto Moura",
+        "date_of_birth": "1996-08-06 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "176",
+        "market_value_in_eur": "2000000"
+      },
+      {
+        "source_id": "592340",
+        "name": "Willian Machado",
+        "date_of_birth": "1996-11-13 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "186",
+        "market_value_in_eur": "2000000"
+      },
+      {
+        "source_id": "688690",
+        "name": "Igor Formiga",
+        "date_of_birth": "1999-01-08 00:00:00",
+        "position": "Right-Back",
+        "height_in_cm": "177",
+        "market_value_in_eur": "2000000"
+      },
+      {
+        "source_id": "808507",
+        "name": "Denilson",
+        "date_of_birth": "2001-03-23 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "180",
+        "market_value_in_eur": "2000000"
+      },
+      {
+        "source_id": "592363",
+        "name": "Nathan Fogaça",
+        "date_of_birth": "1999-06-09 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "178",
+        "market_value_in_eur": "1500000"
+      },
+      {
+        "source_id": "626110",
+        "name": "João Victor",
+        "date_of_birth": "1997-09-02 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "188",
+        "market_value_in_eur": "1500000"
+      },
+      {
+        "source_id": "644204",
+        "name": "José Aldo",
+        "date_of_birth": "1998-07-25 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "175",
+        "market_value_in_eur": "1500000"
+      },
+      {
+        "source_id": "794925",
+        "name": "Edson Carioca",
+        "date_of_birth": "1997-06-04 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "179",
+        "market_value_in_eur": "1500000"
+      },
+      {
+        "source_id": "139607",
+        "name": "Guilherme",
+        "date_of_birth": "1991-05-21 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "174",
+        "market_value_in_eur": "1200000"
+      },
+      {
+        "source_id": "432157",
+        "name": "Japa",
+        "date_of_birth": "2004-01-02 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "177",
+        "market_value_in_eur": "1000000"
+      },
+      {
+        "source_id": "458251",
+        "name": "Everton Galdino",
+        "date_of_birth": "1997-03-17 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "177",
+        "market_value_in_eur": "1000000"
+      },
+      {
+        "source_id": "480274",
+        "name": "Shaylon",
+        "date_of_birth": "1997-04-27 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "178",
+        "market_value_in_eur": "1000000"
+      },
+      {
+        "source_id": "539203",
+        "name": "André Luis",
+        "date_of_birth": "1994-03-09 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "184",
+        "market_value_in_eur": "1000000"
+      },
+      {
+        "source_id": "592373",
+        "name": "Lucas Oliveira",
+        "date_of_birth": "1996-02-02 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "187",
+        "market_value_in_eur": "1000000"
+      },
+      {
+        "source_id": "103381",
+        "name": "Tiquinho Soares",
+        "date_of_birth": "1991-01-17 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "187",
+        "market_value_in_eur": "800000"
+      }
+    ]
+  },
+  {
+    "source_id": "8793",
+    "name": "Red Bull Bragantino",
+    "players": [
+      {
+        "source_id": "406676",
+        "name": "Juninho Capixaba",
+        "date_of_birth": "1997-07-06 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "176",
+        "market_value_in_eur": "8000000"
+      },
+      {
+        "source_id": "675178",
+        "name": "Isidro Pitta",
+        "date_of_birth": "1999-08-14 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "185",
+        "market_value_in_eur": "7500000"
+      },
+      {
+        "source_id": "743593",
+        "name": "Rodriguinho",
+        "date_of_birth": "2004-03-16 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "186",
+        "market_value_in_eur": "6000000"
+      },
+      {
+        "source_id": "816144",
+        "name": "Lucas Barbosa",
+        "date_of_birth": "2001-02-22 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "194",
+        "market_value_in_eur": "6000000"
+      },
+      {
+        "source_id": "468247",
+        "name": "Cleiton",
+        "date_of_birth": "1997-08-19 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "190",
+        "market_value_in_eur": "5000000"
+      },
+      {
+        "source_id": "627230",
+        "name": "Fabinho",
+        "date_of_birth": "2002-04-09 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "178",
+        "market_value_in_eur": "5000000"
+      },
+      {
+        "source_id": "881645",
+        "name": "Ignacio Sosa",
+        "date_of_birth": "2003-08-31 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "175",
+        "market_value_in_eur": "5000000"
+      },
+      {
+        "source_id": "977465",
+        "name": "Gustavo Marques",
+        "date_of_birth": "2001-10-09 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "189",
+        "market_value_in_eur": "5000000"
+      },
+      {
+        "source_id": "329720",
+        "name": "Pedro Henrique",
+        "date_of_birth": "1995-10-02 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "188",
+        "market_value_in_eur": "3500000"
+      },
+      {
+        "source_id": "400661",
+        "name": "Agustín Sant'Anna",
+        "date_of_birth": "1997-09-27 00:00:00",
+        "position": "Right-Back",
+        "height_in_cm": "173",
+        "market_value_in_eur": "3500000"
+      },
+      {
+        "source_id": "614328",
+        "name": "Eric Ramires",
+        "date_of_birth": "2000-08-10 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "172",
+        "market_value_in_eur": "3500000"
+      },
+      {
+        "source_id": "732899",
+        "name": "Guzmán Rodríguez",
+        "date_of_birth": "2000-02-08 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "185",
+        "market_value_in_eur": "3500000"
+      },
+      {
+        "source_id": "975191",
+        "name": "Henry Mosquera",
+        "date_of_birth": "2001-11-15 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "175",
+        "market_value_in_eur": "3500000"
+      },
+      {
+        "source_id": "1082593",
+        "name": "Vinicinho",
+        "date_of_birth": "2004-02-20 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "174",
+        "market_value_in_eur": "3500000"
+      },
+      {
+        "source_id": "1084081",
+        "name": "Gustavo Neves",
+        "date_of_birth": "2004-04-23 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "176",
+        "market_value_in_eur": "3500000"
+      },
+      {
+        "source_id": "680506",
+        "name": "José Andrés Hurtado",
+        "date_of_birth": "2001-12-23 00:00:00",
+        "position": "Right-Back",
+        "height_in_cm": "178",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "816129",
+        "name": "Vanderlan",
+        "date_of_birth": "2002-09-07 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "183",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "880217",
+        "name": "Alix",
+        "date_of_birth": "1999-11-06 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "195",
+        "market_value_in_eur": "3000000"
+      }
+    ]
+  },
+  {
+    "source_id": "537",
+    "name": "S. A. F. Botafogo",
+    "players": [
+      {
+        "source_id": "808509",
+        "name": "Danilo",
+        "date_of_birth": "2001-04-29 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "177",
+        "market_value_in_eur": "32000000"
+      },
+      {
+        "source_id": "1228194",
+        "name": "Álvaro Montoro",
+        "date_of_birth": "2007-04-17 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "170",
+        "market_value_in_eur": "10000000"
+      },
+      {
+        "source_id": "390638",
+        "name": "Arthur Cabral",
+        "date_of_birth": "1998-04-25 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "186",
+        "market_value_in_eur": "9000000"
+      },
+      {
+        "source_id": "468249",
+        "name": "Vitinho",
+        "date_of_birth": "1999-07-23 00:00:00",
+        "position": "Right-Back",
+        "height_in_cm": "174",
+        "market_value_in_eur": "9000000"
+      },
+      {
+        "source_id": "661133",
+        "name": "Cristian Medina",
+        "date_of_birth": "2002-06-01 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "178",
+        "market_value_in_eur": "9000000"
+      },
+      {
+        "source_id": "465819",
+        "name": "Santiago Rodríguez",
+        "date_of_birth": "2000-01-08 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "172",
+        "market_value_in_eur": "6000000"
+      },
+      {
+        "source_id": "668228",
+        "name": "Matheus Martins",
+        "date_of_birth": "2003-07-16 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "183",
+        "market_value_in_eur": "6000000"
+      },
+      {
+        "source_id": "884072",
+        "name": "Jeffinho",
+        "date_of_birth": "1999-12-30 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "176",
+        "market_value_in_eur": "5000000"
+      },
+      {
+        "source_id": "466336",
+        "name": "Nahuel Ferraresi",
+        "date_of_birth": "1998-11-19 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "190",
+        "market_value_in_eur": "4500000"
+      },
+      {
+        "source_id": "1083600",
+        "name": "Nathan Fernandes",
+        "date_of_birth": "2005-02-16 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "176",
+        "market_value_in_eur": "4000000"
+      },
+      {
+        "source_id": "373433",
+        "name": "Adryelson",
+        "date_of_birth": "1998-03-23 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "182",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "592347",
+        "name": "Júnior Santos",
+        "date_of_birth": "1994-10-11 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "188",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "811219",
+        "name": "Newton",
+        "date_of_birth": "2000-03-12 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "188",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "255755",
+        "name": "Alex Telles",
+        "date_of_birth": "1992-12-15 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "181",
+        "market_value_in_eur": "2800000"
+      },
+      {
+        "source_id": "538810",
+        "name": "Chris Ramos",
+        "date_of_birth": "1997-01-18 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "190",
+        "market_value_in_eur": "2500000"
+      },
+      {
+        "source_id": "737821",
+        "name": "Patrick de Paula",
+        "date_of_birth": "1999-09-08 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "180",
+        "market_value_in_eur": "2500000"
+      },
+      {
+        "source_id": "742034",
+        "name": "Léo Linck",
+        "date_of_birth": "2001-03-03 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "194",
+        "market_value_in_eur": "2500000"
+      },
+      {
+        "source_id": "1087334",
+        "name": "Jordan Barrera",
+        "date_of_birth": "2006-04-11 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "180",
+        "market_value_in_eur": "2500000"
+      }
+    ]
+  },
+  {
+    "source_id": "221",
+    "name": "Santos Futebol Clube",
+    "players": [
+      {
+        "source_id": "371247",
+        "name": "Gabriel Brazão",
+        "date_of_birth": "2000-10-05 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "192",
+        "market_value_in_eur": "12000000"
+      },
+      {
+        "source_id": "491704",
+        "name": "Benjamín Rollheiser",
+        "date_of_birth": "2000-03-24 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "172",
+        "market_value_in_eur": "9000000"
+      },
+      {
+        "source_id": "1082850",
+        "name": "Deivid Washington",
+        "date_of_birth": "2005-06-05 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "187",
+        "market_value_in_eur": "9000000"
+      },
+      {
+        "source_id": "1089958",
+        "name": "Gabriel Bontempo",
+        "date_of_birth": "2005-01-16 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "181",
+        "market_value_in_eur": "9000000"
+      },
+      {
+        "source_id": "68290",
+        "name": "Neymar",
+        "date_of_birth": "1992-02-05 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "175",
+        "market_value_in_eur": "8000000"
+      },
+      {
+        "source_id": "608216",
+        "name": "Gabriel Menino",
+        "date_of_birth": "2000-09-29 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "176",
+        "market_value_in_eur": "7000000"
+      },
+      {
+        "source_id": "613873",
+        "name": "Álvaro Barreal",
+        "date_of_birth": "2000-08-17 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "172",
+        "market_value_in_eur": "7000000"
+      },
+      {
+        "source_id": "1063811",
+        "name": "Miguelito",
+        "date_of_birth": "2004-04-25 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "177",
+        "market_value_in_eur": "5000000"
+      },
+      {
+        "source_id": "1355385",
+        "name": "Robinho Junior",
+        "date_of_birth": "2007-12-17 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "170",
+        "market_value_in_eur": "5000000"
+      },
+      {
+        "source_id": "371009",
+        "name": "Rony",
+        "date_of_birth": "1995-05-11 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "167",
+        "market_value_in_eur": "4500000"
+      },
+      {
+        "source_id": "411662",
+        "name": "Lucas Veríssimo",
+        "date_of_birth": "1995-07-02 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "188",
+        "market_value_in_eur": "4500000"
+      },
+      {
+        "source_id": "1253844",
+        "name": "Vinicius Lira",
+        "date_of_birth": "2007-10-12 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "187",
+        "market_value_in_eur": "4000000"
+      },
+      {
+        "source_id": "244275",
+        "name": "Gabriel Barbosa",
+        "date_of_birth": "1996-08-30 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "178",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "598838",
+        "name": "Adonis Frías",
+        "date_of_birth": "1998-03-17 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "189",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "275412",
+        "name": "João Paulo",
+        "date_of_birth": "1995-06-29 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "188",
+        "market_value_in_eur": "2000000"
+      },
+      {
+        "source_id": "410183",
+        "name": "João Basso",
+        "date_of_birth": "1997-01-13 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "187",
+        "market_value_in_eur": "2000000"
+      },
+      {
+        "source_id": "484848",
+        "name": "Zé Ivaldo",
+        "date_of_birth": "1997-02-21 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "185",
+        "market_value_in_eur": "2000000"
+      },
+      {
+        "source_id": "552240",
+        "name": "Igor Vinícius",
+        "date_of_birth": "1997-04-01 00:00:00",
+        "position": "Right-Back",
+        "height_in_cm": "174",
+        "market_value_in_eur": "2000000"
+      }
+    ]
+  },
+  {
+    "source_id": "1023",
+    "name": "Sociedade Esportiva Palmeiras",
+    "players": [
+      {
+        "source_id": "943837",
+        "name": "Vitor Roque",
+        "date_of_birth": "2005-02-28 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "174",
+        "market_value_in_eur": "38000000"
+      },
+      {
+        "source_id": "844797",
+        "name": "Flaco López",
+        "date_of_birth": "2000-12-06 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "190",
+        "market_value_in_eur": "25000000"
+      },
+      {
+        "source_id": "1082631",
+        "name": "Allan",
+        "date_of_birth": "2004-04-19 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "174",
+        "market_value_in_eur": "20000000"
+      },
+      {
+        "source_id": "588989",
+        "name": "Jhon Arias",
+        "date_of_birth": "1997-09-21 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "168",
+        "market_value_in_eur": "15000000"
+      },
+      {
+        "source_id": "678439",
+        "name": "Mauricio",
+        "date_of_birth": "2001-06-22 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "175",
+        "market_value_in_eur": "15000000"
+      },
+      {
+        "source_id": "203394",
+        "name": "Andreas Pereira",
+        "date_of_birth": "1996-01-01 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "178",
+        "market_value_in_eur": "14000000"
+      },
+      {
+        "source_id": "496268",
+        "name": "Joaquín Piquerez",
+        "date_of_birth": "1998-08-24 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "185",
+        "market_value_in_eur": "12000000"
+      },
+      {
+        "source_id": "745191",
+        "name": "Ramón Sosa",
+        "date_of_birth": "1999-08-31 00:00:00",
+        "position": "Second Striker",
+        "height_in_cm": "178",
+        "market_value_in_eur": "10000000"
+      },
+      {
+        "source_id": "849582",
+        "name": "Agustín Giay",
+        "date_of_birth": "2004-01-16 00:00:00",
+        "position": "Right-Back",
+        "height_in_cm": "180",
+        "market_value_in_eur": "10000000"
+      },
+      {
+        "source_id": "428791",
+        "name": "Paulinho",
+        "date_of_birth": "2000-07-15 00:00:00",
+        "position": "Second Striker",
+        "height_in_cm": "177",
+        "market_value_in_eur": "9000000"
+      },
+      {
+        "source_id": "641458",
+        "name": "Carlos Miguel",
+        "date_of_birth": "1998-10-09 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "204",
+        "market_value_in_eur": "7000000"
+      },
+      {
+        "source_id": "707447",
+        "name": "Emiliano Martínez",
+        "date_of_birth": "1999-08-17 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "184",
+        "market_value_in_eur": "6500000"
+      },
+      {
+        "source_id": "364972",
+        "name": "Marlon Freitas",
+        "date_of_birth": "1995-03-27 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "185",
+        "market_value_in_eur": "6000000"
+      },
+      {
+        "source_id": "653348",
+        "name": "Khellven",
+        "date_of_birth": "2001-02-25 00:00:00",
+        "position": "Right-Back",
+        "height_in_cm": "176",
+        "market_value_in_eur": "6000000"
+      },
+      {
+        "source_id": "379752",
+        "name": "Alexander Barboza",
+        "date_of_birth": "1995-03-16 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "193",
+        "market_value_in_eur": "5000000"
+      },
+      {
+        "source_id": "458710",
+        "name": "Murilo",
+        "date_of_birth": "1997-03-27 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "188",
+        "market_value_in_eur": "5000000"
+      },
+      {
+        "source_id": "270188",
+        "name": "Lucas Evangelista",
+        "date_of_birth": "1995-02-06 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "181",
+        "market_value_in_eur": "4000000"
+      },
+      {
+        "source_id": "563692",
+        "name": "Bruno Fuchs",
+        "date_of_birth": "1999-04-01 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "190",
+        "market_value_in_eur": "4000000"
+      }
+    ]
+  },
+  {
+    "source_id": "199",
+    "name": "Sport Club Corinthians Paulista",
+    "players": [
+      {
+        "source_id": "489893",
+        "name": "Yuri Alberto",
+        "date_of_birth": "2001-03-18 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "183",
+        "market_value_in_eur": "23000000"
+      },
+      {
+        "source_id": "1029227",
+        "name": "Breno Bidon",
+        "date_of_birth": "2005-02-20 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "178",
+        "market_value_in_eur": "22000000"
+      },
+      {
+        "source_id": "1221818",
+        "name": "André",
+        "date_of_birth": "2006-06-20 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "183",
+        "market_value_in_eur": "16000000"
+      },
+      {
+        "source_id": "565009",
+        "name": "Rodrigo Garro",
+        "date_of_birth": "1998-01-04 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "174",
+        "market_value_in_eur": "12000000"
+      },
+      {
+        "source_id": "574901",
+        "name": "Hugo Souza",
+        "date_of_birth": "1999-01-31 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "199",
+        "market_value_in_eur": "11000000"
+      },
+      {
+        "source_id": "594226",
+        "name": "Matheuzinho",
+        "date_of_birth": "2000-09-08 00:00:00",
+        "position": "Right-Back",
+        "height_in_cm": "171",
+        "market_value_in_eur": "8000000"
+      },
+      {
+        "source_id": "167850",
+        "name": "Memphis Depay",
+        "date_of_birth": "1994-02-13 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "178",
+        "market_value_in_eur": "7000000"
+      },
+      {
+        "source_id": "670021",
+        "name": "Matheus Bidu",
+        "date_of_birth": "1999-05-04 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "172",
+        "market_value_in_eur": "7000000"
+      },
+      {
+        "source_id": "1257133",
+        "name": "Gui Negão",
+        "date_of_birth": "2007-02-06 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "185",
+        "market_value_in_eur": "7000000"
+      },
+      {
+        "source_id": "546530",
+        "name": "Raniele",
+        "date_of_birth": "1996-12-31 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "184",
+        "market_value_in_eur": "4000000"
+      },
+      {
+        "source_id": "1005650",
+        "name": "Tchoca",
+        "date_of_birth": "2003-12-31 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "192",
+        "market_value_in_eur": "4000000"
+      },
+      {
+        "source_id": "1257132",
+        "name": "Dieguinho",
+        "date_of_birth": "2007-09-16 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "170",
+        "market_value_in_eur": "4000000"
+      },
+      {
+        "source_id": "323934",
+        "name": "Matheus Pereira",
+        "date_of_birth": "1998-02-25 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "183",
+        "market_value_in_eur": "2500000"
+      },
+      {
+        "source_id": "385271",
+        "name": "Allan",
+        "date_of_birth": "1997-03-03 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "172",
+        "market_value_in_eur": "2500000"
+      },
+      {
+        "source_id": "547443",
+        "name": "Pedro Raul",
+        "date_of_birth": "1996-11-05 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "193",
+        "market_value_in_eur": "2500000"
+      },
+      {
+        "source_id": "141660",
+        "name": "Jesse Lingard",
+        "date_of_birth": "1992-12-15 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "174",
+        "market_value_in_eur": "2000000"
+      },
+      {
+        "source_id": "657743",
+        "name": "Pedro Milans",
+        "date_of_birth": "2002-03-24 00:00:00",
+        "position": "Right-Back",
+        "height_in_cm": "171",
+        "market_value_in_eur": "1500000"
+      },
+      {
+        "source_id": "1082700",
+        "name": "Kayke",
+        "date_of_birth": "2004-04-28 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "176",
+        "market_value_in_eur": "1500000"
+      }
+    ]
+  },
+  {
+    "source_id": "6600",
+    "name": "Sport Club Internacional",
+    "players": [
+      {
+        "source_id": "719635",
+        "name": "Alexandro Bernabei",
+        "date_of_birth": "2000-09-24 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "169",
+        "market_value_in_eur": "8000000"
+      },
+      {
+        "source_id": "572042",
+        "name": "Johan Carbonero",
+        "date_of_birth": "1999-07-20 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "170",
+        "market_value_in_eur": "6000000"
+      },
+      {
+        "source_id": "703322",
+        "name": "Bruno Gomes",
+        "date_of_birth": "2001-04-04 00:00:00",
+        "position": "Right-Back",
+        "height_in_cm": "175",
+        "market_value_in_eur": "6000000"
+      },
+      {
+        "source_id": "668265",
+        "name": "Kayky",
+        "date_of_birth": "2003-06-11 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "172",
+        "market_value_in_eur": "5000000"
+      },
+      {
+        "source_id": "670965",
+        "name": "Vitinho",
+        "date_of_birth": "1999-04-01 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "180",
+        "market_value_in_eur": "5000000"
+      },
+      {
+        "source_id": "834444",
+        "name": "Victor Gabriel",
+        "date_of_birth": "2004-04-28 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "187",
+        "market_value_in_eur": "5000000"
+      },
+      {
+        "source_id": "657220",
+        "name": "Rodrigo Villagra",
+        "date_of_birth": "2001-02-14 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "178",
+        "market_value_in_eur": "3500000"
+      },
+      {
+        "source_id": "371996",
+        "name": "Alerrandro",
+        "date_of_birth": "2000-01-12 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "181",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "741021",
+        "name": "Matheus Bahia",
+        "date_of_birth": "1999-08-11 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "181",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "869437",
+        "name": "Anthoni",
+        "date_of_birth": "2002-01-23 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "193",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "294873",
+        "name": "Thiago Maia",
+        "date_of_birth": "1997-03-23 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "179",
+        "market_value_in_eur": "2500000"
+      },
+      {
+        "source_id": "829378",
+        "name": "Braian Aguirre",
+        "date_of_birth": "2000-07-28 00:00:00",
+        "position": "Right-Back",
+        "height_in_cm": "175",
+        "market_value_in_eur": "2500000"
+      },
+      {
+        "source_id": "465817",
+        "name": "Alan Rodríguez",
+        "date_of_birth": "2000-01-25 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "174",
+        "market_value_in_eur": "2300000"
+      },
+      {
+        "source_id": "51174",
+        "name": "Fernando",
+        "date_of_birth": "1987-07-25 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "183",
+        "market_value_in_eur": "2000000"
+      },
+      {
+        "source_id": "104505",
+        "name": "Alan Patrick",
+        "date_of_birth": "1991-05-13 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "177",
+        "market_value_in_eur": "2000000"
+      },
+      {
+        "source_id": "405768",
+        "name": "Ronaldo",
+        "date_of_birth": "1996-10-23 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "179",
+        "market_value_in_eur": "2000000"
+      },
+      {
+        "source_id": "662327",
+        "name": "Diego Rosa",
+        "date_of_birth": "2002-10-12 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "182",
+        "market_value_in_eur": "2000000"
+      },
+      {
+        "source_id": "740273",
+        "name": "Nathan",
+        "date_of_birth": "2001-09-05 00:00:00",
+        "position": "Right-Back",
+        "height_in_cm": "183",
+        "market_value_in_eur": "2000000"
+      }
+    ]
+  },
+  {
+    "source_id": "8718",
+    "name": "Sport Club do Recife",
+    "players": [
+      {
+        "source_id": "112465",
+        "name": "Sérgio Oliveira",
+        "date_of_birth": "1992-06-02 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "181",
+        "market_value_in_eur": "2500000"
+      },
+      {
+        "source_id": "401533",
+        "name": "Matheusinho",
+        "date_of_birth": "1998-02-11 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "164",
+        "market_value_in_eur": "1500000"
+      },
+      {
+        "source_id": "312862",
+        "name": "Dalbert",
+        "date_of_birth": "1993-09-08 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "181",
+        "market_value_in_eur": "1000000"
+      },
+      {
+        "source_id": "75102",
+        "name": "Denis",
+        "date_of_birth": "1987-04-14 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "188",
+        "market_value_in_eur": "200000"
+      },
+      {
+        "source_id": "126239",
+        "name": "Christian Ortíz",
+        "date_of_birth": "1992-08-20 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "170",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "148765",
+        "name": "Pablo",
+        "date_of_birth": "1992-06-23 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "185",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "232847",
+        "name": "Lucas Lima",
+        "date_of_birth": "1990-07-09 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "176",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "267849",
+        "name": "Romarinho",
+        "date_of_birth": "1994-03-01 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "168",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "305428",
+        "name": "Zé Roberto",
+        "date_of_birth": "1993-09-14 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "184",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "338861",
+        "name": "Hyoran",
+        "date_of_birth": "1993-05-25 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "174",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "408850",
+        "name": "Caíque França",
+        "date_of_birth": "1995-06-03 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "188",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "612340",
+        "name": "Gustavo Coutinho",
+        "date_of_birth": "1999-01-19 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "186",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "612342",
+        "name": "Chico",
+        "date_of_birth": "1998-09-14 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "188",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "621793",
+        "name": "Fabricio Domínguez",
+        "date_of_birth": "1998-06-24 00:00:00",
+        "position": "Right-Back",
+        "height_in_cm": "177",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "634139",
+        "name": "Hereda",
+        "date_of_birth": "1998-09-20 00:00:00",
+        "position": "Right-Back",
+        "height_in_cm": "178",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "695232",
+        "name": "Chrystian Barletta",
+        "date_of_birth": "2001-07-05 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "178",
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "738411",
+        "name": "Adriano",
+        "date_of_birth": "2003-03-07 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": null,
+        "market_value_in_eur": null
+      },
+      {
+        "source_id": "752560",
+        "name": "Gustavo Maia",
+        "date_of_birth": "2001-01-22 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "168",
+        "market_value_in_eur": null
+      }
+    ]
+  },
+  {
+    "source_id": "585",
+    "name": "São Paulo Futebol Clube",
+    "players": [
+      {
+        "source_id": "468301",
+        "name": "Marcos Antônio",
+        "date_of_birth": "2000-06-13 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "166",
+        "market_value_in_eur": "12000000"
+      },
+      {
+        "source_id": "440658",
+        "name": "Artur",
+        "date_of_birth": "1998-02-15 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "168",
+        "market_value_in_eur": "8000000"
+      },
+      {
+        "source_id": "85314",
+        "name": "Oscar",
+        "date_of_birth": "1991-09-09 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "180",
+        "market_value_in_eur": "7500000"
+      },
+      {
+        "source_id": "861852",
+        "name": "Damián Bobadilla",
+        "date_of_birth": "2001-07-11 00:00:00",
+        "position": "Central Midfield",
+        "height_in_cm": "180",
+        "market_value_in_eur": "6000000"
+      },
+      {
+        "source_id": "892089",
+        "name": "Pablo Maia",
+        "date_of_birth": "2002-01-10 00:00:00",
+        "position": "Defensive Midfield",
+        "height_in_cm": "178",
+        "market_value_in_eur": "5000000"
+      },
+      {
+        "source_id": "1202387",
+        "name": "Ryan Francisco",
+        "date_of_birth": "2006-11-21 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "175",
+        "market_value_in_eur": "4500000"
+      },
+      {
+        "source_id": "503343",
+        "name": "Alan Franco",
+        "date_of_birth": "1996-10-11 00:00:00",
+        "position": "Centre-Back",
+        "height_in_cm": "183",
+        "market_value_in_eur": "4000000"
+      },
+      {
+        "source_id": "689017",
+        "name": "Ferreirinha",
+        "date_of_birth": "1997-12-31 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "176",
+        "market_value_in_eur": "4000000"
+      },
+      {
+        "source_id": "662739",
+        "name": "Gonzalo Tapia",
+        "date_of_birth": "2002-02-18 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "179",
+        "market_value_in_eur": "3500000"
+      },
+      {
+        "source_id": "162812",
+        "name": "Cauly",
+        "date_of_birth": "1995-09-15 00:00:00",
+        "position": "Attacking Midfield",
+        "height_in_cm": "175",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "540458",
+        "name": "Enzo Díaz",
+        "date_of_birth": "1995-12-07 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "177",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "565232",
+        "name": "André Silva",
+        "date_of_birth": "1997-06-03 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "181",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "1269378",
+        "name": "Lucca",
+        "date_of_birth": "2007-06-14 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "172",
+        "market_value_in_eur": "3000000"
+      },
+      {
+        "source_id": "381724",
+        "name": "Victor Sá",
+        "date_of_birth": "1994-03-27 00:00:00",
+        "position": "Left Winger",
+        "height_in_cm": "178",
+        "market_value_in_eur": "2500000"
+      },
+      {
+        "source_id": "77100",
+        "name": "Lucas Moura",
+        "date_of_birth": "1992-08-13 00:00:00",
+        "position": "Right Winger",
+        "height_in_cm": "172",
+        "market_value_in_eur": "2000000"
+      },
+      {
+        "source_id": "228433",
+        "name": "Wendell",
+        "date_of_birth": "1993-07-20 00:00:00",
+        "position": "Left-Back",
+        "height_in_cm": "176",
+        "market_value_in_eur": "1500000"
+      },
+      {
+        "source_id": "284727",
+        "name": "Jonathan Calleri",
+        "date_of_birth": "1993-09-23 00:00:00",
+        "position": "Centre-Forward",
+        "height_in_cm": "181",
+        "market_value_in_eur": "1500000"
+      },
+      {
+        "source_id": "378871",
+        "name": "Carlos Coronel",
+        "date_of_birth": "1996-12-29 00:00:00",
+        "position": "Goalkeeper",
+        "height_in_cm": "192",
+        "market_value_in_eur": "1500000"
+      }
+    ]
+  }
+]

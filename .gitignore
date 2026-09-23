@@ -1,1 +1,16 @@
-.venv/
+# Maven
+**/target/
+*.mv.db
+*.trace.db
+
+# IDEs
+.idea/
+*.iml
+
+# Dados externos brutos do Transfermarkt
+/data/external/transfermarkt/*.zip
+/data/external/transfermarkt/raw/*.csv
+/data/external/transfermarkt/raw/*.csv.gz
+/data/assets/
+/data/processed/
+/data/external/eafc26-reference/*.csv
