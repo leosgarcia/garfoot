@@ -10,17 +10,18 @@
 Na raiz do repositório, compile e instale os módulos no repositório Maven local:
 
 ```bash
-./mvnw -q -pl ui -am install
+./mvnw -q clean install
 ```
 
 Depois inicie o JavaFX a partir do módulo `ui`:
 
 ```bash
-cd ui
-../mvnw org.openjfx:javafx-maven-plugin:0.0.8:run
+./mvnw -pl ui javafx:run
 ```
 
-Na primeira execução, o Garfoot cria uma temporada demonstrativa. O save local fica em `~/.garfoot/garfoot.mv.db` e é atualizado ao avançar uma rodada e ao fechar a janela.
+No menu principal, use **Novo Jogo** para iniciar no Brasileirão Série B 2026. Escolha o clube, informe o nome do técnico e confirme a criação do save para abrir o hub do clube. O save local fica em `~/.garfoot/garfoot.mv.db`.
+
+O modo Free oferece Brasil nesta versão. Os vinte clubes de cada série estão catalogados; elencos correspondidos vêm do snapshot Transfermarkt de 2026-07-06, e os elencos sintéticos são identificados na escolha do clube. Veja [a investigação da pirâmide 2026](12-investigacao-piramide-2026.md) para cobertura e limitações dos dados.
 
 ## PostgreSQL
 

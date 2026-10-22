@@ -13,14 +13,24 @@ public final class Campeonato {
     private final UUID id;
     private final String nome;
     private final TipoCompeticao tipo;
+    private final String pais;
+    private final String divisao;
+    private final List<String> paisesDeCarreira = new ArrayList<>();
+    private final List<Clube> reservatorioDistrital = new ArrayList<>();
     private final List<Clube> participantes = new ArrayList<>();
     private final List<Rodada> rodadas = new ArrayList<>();
     private final List<ClassificacaoItem> classificacao = new ArrayList<>();
 
     public Campeonato(UUID id, String nome, TipoCompeticao tipo) {
+        this(id, nome, tipo, "Brasil", "Série A");
+    }
+
+    public Campeonato(UUID id, String nome, TipoCompeticao tipo, String pais, String divisao) {
         this.id = Objects.requireNonNull(id, "id must not be null");
         this.nome = DomainValidation.requireText(nome, "nome");
         this.tipo = Objects.requireNonNull(tipo, "tipo must not be null");
+        this.pais = DomainValidation.requireText(pais, "pais");
+        this.divisao = DomainValidation.requireText(divisao, "divisao");
     }
 
     public UUID id() {
@@ -33,6 +43,30 @@ public final class Campeonato {
 
     public TipoCompeticao tipo() {
         return tipo;
+    }
+    public String pais() { return pais; }
+    public String divisao() { return divisao; }
+    public List<String> paisesDeCarreira() { return Collections.unmodifiableList(paisesDeCarreira); }
+    public void definirPaisesDeCarreira(List<String> paises) {
+        Objects.requireNonNull(paises, "paises must not be null");
+        if (paises.isEmpty() || paises.stream().anyMatch(p -> p == null || p.isBlank()))
+            throw new IllegalArgumentException("career needs at least one country");
+        paisesDeCarreira.clear();
+        paises.stream().map(String::trim).distinct().forEach(paisesDeCarreira::add);
+    }
+    public List<Clube> reservatorioDistrital() { return Collections.unmodifiableList(reservatorioDistrital); }
+    public void adicionarAoDistrito(Clube clube) {
+        Objects.requireNonNull(clube, "clube must not be null");
+        if (!clube.pais().equals(pais) || participantes.stream().anyMatch(c -> c.id().equals(clube.id()))
+                || reservatorioDistrital.stream().anyMatch(c -> c.id().equals(clube.id())))
+            throw new IllegalArgumentException("district club must be unique and from the same country");
+        reservatorioDistrital.add(clube);
+    }
+    public Clube promoverDoDistrito(UUID clubeId) {
+        Clube clube = reservatorioDistrital.stream().filter(c -> c.id().equals(clubeId)).findFirst()
+                .orElseThrow(() -> new IllegalArgumentException("district club not found"));
+        reservatorioDistrital.remove(clube);
+        return clube;
     }
 
     public List<Clube> participantes() {

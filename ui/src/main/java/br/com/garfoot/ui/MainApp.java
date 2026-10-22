@@ -43,7 +43,6 @@ import java.util.UUID;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.time.LocalDate;
 import java.time.Period;
 import java.util.*;
 import java.io.InputStream;
@@ -72,6 +71,9 @@ public final class MainApp extends Application {
     private Stage stage;
     private Campeonato temporadaAtiva;
     private final List<Clube> catalogo = new ArrayList<>();
+    private final Map<UUID, String> divisaoPorClube = new HashMap<>();
+    private final Map<String, CheckBox> paisesNaCarreira = new LinkedHashMap<>();
+    private JsonNode estruturaBrasil;
     private final Map<UUID, Long> valoresElencos = new HashMap<>();
     private final ObjectMapper json = new ObjectMapper();
 
@@ -117,16 +119,22 @@ public final class MainApp extends Application {
 
     private void telaNovoJogo() {
         try { carregarCatalogo(); } catch (Exception ex) { alerta("Catálogo", "Não foi possível abrir o catálogo local: " + ex.getMessage()); return; }
+        paisesNaCarreira.clear();
+        VBox selecaoPaises = new VBox(6, new Label("Países em que você poderá receber propostas"));
+        CheckBox brasil = new CheckBox("Brasil"); brasil.setSelected(true); paisesNaCarreira.put("Brasil", brasil); selecaoPaises.getChildren().add(brasil);
+        selecaoPaises.getChildren().add(new Label("Mais países serão habilitados quando suas ligas estiverem cadastradas."));
         ListView<Clube> clubes = new ListView<>();
-        clubes.getItems().setAll(catalogo);
+        List<Clube> clubesSerieB = catalogo.stream().filter(c -> "Série B".equals(divisaoPorClube.get(c.id()))).toList();
+        clubes.getItems().setAll(clubesSerieB);
         clubes.setCellFactory(view -> new ListCell<>() {
             @Override protected void updateItem(Clube clube, boolean vazio) {
                 super.updateItem(clube, vazio);
                 setText(vazio || clube == null ? null : clube.nome() + "   ·   força " + Math.round(media(clube))
-                        + "   ·   elenco " + formatarValor(clube));
+                        + "   ·   elenco " + formatarValor(clube)
+                        + (clube.elencoSintetico() ? "   ·   elenco estimado" : clube.elencoCompletadoSinteticamente() ? "   ·   elenco com reposições estimadas" : ""));
             }
         });
-        ComboBox<String> temporada = new ComboBox<>(); temporada.getItems().addAll("2026/27", "2027"); temporada.setValue("2026/27");
+        Label serieInicial = label("Brasil · Série B · Temporada 2026", "subtle");
         ComboBox<String> dificuldade = new ComboBox<>(); dificuldade.getItems().addAll("Fácil", "Normal", "Difícil"); dificuldade.setValue("Normal");
         TextField tecnico = new TextField(); tecnico.setPromptText("Nome do técnico"); tecnico.setText("Novo Técnico");
         Button comecar = new Button("Revisar e começar");
@@ -134,26 +142,29 @@ public final class MainApp extends Application {
             Clube clube = clubes.getSelectionModel().getSelectedItem();
             if (clube == null) { alerta("Escolha um clube", "Selecione um clube para continuar."); return; }
             if (tecnico.getText().isBlank()) { alerta("Nome do técnico", "Informe o nome do técnico."); return; }
-            confirmarNovoSave(clube, tecnico.getText().trim(), temporada.getValue(), dificuldade.getValue());
+            List<String> paises = paisesNaCarreira.entrySet().stream().filter(item -> item.getValue().isSelected()).map(Map.Entry::getKey).toList();
+            if (paises.isEmpty()) { alerta("Escolha um país", "Selecione pelo menos um país para a carreira."); return; }
+            confirmarNovoSave(clube, tecnico.getText().trim(), paises, dificuldade.getValue());
         });
-        VBox raiz = new VBox(12, label("Nova carreira", "section-title"), label("Escolha seu clube · Série A do Brasil", "subtle"),
+        VBox raiz = new VBox(12, label("Nova carreira", "section-title"), selecaoPaises, serieInicial,
                 clubes, new Label("Elenco médio e valor de mercado são estimativas baseadas no snapshot local."),
-                new Label("Técnico"), tecnico, new Label("Temporada inicial"), temporada,
+                new Label("Técnico"), tecnico,
                 new Label("Dificuldade"), dificuldade, comecar);
         raiz.setPadding(new Insets(22));
         VBox.setVgrow(clubes, Priority.ALWAYS);
         mostrar(raiz, 760, 800);
     }
 
-    private void confirmarNovoSave(Clube clube, String nomeTecnico, String ano, String dificuldade) {
+    private void confirmarNovoSave(Clube clube, String nomeTecnico, List<String> paises, String dificuldade) {
         Alert dialogo = new Alert(Alert.AlertType.CONFIRMATION,
-                "Clube: " + clube.nome() + "\nTécnico: " + nomeTecnico + "\nTemporada: " + ano
+                "Clube: " + clube.nome() + "\nPaíses de carreira: " + String.join(", ", paises)
+                        + "\nDivisão inicial: Série B · 2026\nTécnico: " + nomeTecnico
                         + "\nDificuldade: " + dificuldade + "\n\nCriar save e começar?", ButtonType.CANCEL, ButtonType.OK);
         dialogo.setTitle("Confirmar carreira"); dialogo.setHeaderText("Tudo pronto para começar");
-        dialogo.showAndWait().filter(b -> b == ButtonType.OK).ifPresent(b -> criarSave(clube, nomeTecnico, ano, dificuldade));
+        dialogo.showAndWait().filter(b -> b == ButtonType.OK).ifPresent(b -> criarSave(clube, nomeTecnico, paises));
     }
 
-    private void criarSave(Clube escolhido, String nomeTecnico, String ano, String dificuldade) {
+    private void criarSave(Clube escolhido, String nomeTecnico, List<String> paises) {
         Clube clube = copiarClube(escolhido);
         clube.definirTecnico(new Tecnico(UUID.randomUUID(), nomeTecnico));
         var formacao = Formacao.quatroQuatroDois();
@@ -167,12 +178,14 @@ public final class MainApp extends Application {
         }
         List<Jogador> reservas = porPosicao.values().stream().flatMap(Collection::stream).limit(7).toList();
         clube.definirTatica(new Tatica(new Escalacao(formacao, titulares, reservas), EstiloJogo.EQUILIBRADO));
-        Campeonato campeonato = new Campeonato(UUID.randomUUID(), "Série A " + ano, TipoCompeticao.LIGA);
-        catalogo.stream().map(this::copiarClube).forEach(campeonato::adicionarParticipante);
+        Campeonato campeonato = new Campeonato(UUID.randomUUID(), "Brasileirão Série B 2026", TipoCompeticao.LIGA, "Brasil", "Série B");
+        campeonato.definirPaisesDeCarreira(paises);
+        catalogo.stream().filter(c -> "Série B".equals(divisaoPorClube.get(c.id()))).map(this::copiarClube).forEach(campeonato::adicionarParticipante);
         campeonato.participantes().stream().filter(c -> c.id().equals(clube.id())).findFirst().ifPresent(c -> {
             c.definirTecnico(clube.tecnico()); c.definirTatica(clube.tatica());
         });
-        new MotorCampeonato().gerarTurnoEReturno(campeonato, LocalDateTime.now().plusDays(1));
+        criarReservatorioDistrital().forEach(campeonato::adicionarAoDistrito);
+        new MotorCampeonato().gerarTurnoEReturno(campeonato, LocalDateTime.of(2026, 3, 21, 16, 0));
         new AtualizarClassificacao().executar(campeonato);
         repositorio.salvar(campeonato); temporadaAtiva = campeonato; abrirHub(campeonato, clubeId(campeonato, clube.id()));
     }
@@ -195,38 +208,31 @@ public final class MainApp extends Application {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/VisaoClube.fxml"));
             loader.setControllerFactory(tipo -> new VisaoClubeController(presenter));
             stage.setScene(new Scene(loader.load()));
+            stage.setTitle("Garfoot · " + temporada.pais() + " · " + temporada.divisao() + " · 2026");
         } catch (Exception ex) { alerta("Clube", "Falha ao abrir o clube: " + ex.getMessage()); telaMenu(); }
     }
 
     private void carregarCatalogo() throws Exception {
         if (!catalogo.isEmpty()) return;
-        JsonNode fonte;
-        Path processedClubs = Path.of("data/processed/transfermarkt/clubs.json");
-        Path processedPlayers = Path.of("data/processed/transfermarkt/players.json");
-        if (Files.exists(processedClubs) && Files.exists(processedPlayers)) {
-            JsonNode clubesJson = json.readTree(processedClubs.toFile());
-            JsonNode jogadoresJson = json.readTree(processedPlayers.toFile());
-            Map<String, JsonNode> porId = new HashMap<>();
-            clubesJson.forEach(c -> { if ("BRA1".equals(c.path("competition_id").asText())) porId.put(c.path("source_id").asText(), c); });
-            Map<String, List<JsonNode>> atletas = new HashMap<>();
-            jogadoresJson.forEach(j -> { String id=j.path("current_club_id").asText(); if (porId.containsKey(id)) atletas.computeIfAbsent(id, k -> new ArrayList<>()).add(j); });
-            var lista = json.createArrayNode();
-            porId.forEach((id, c) -> { com.fasterxml.jackson.databind.node.ObjectNode clone=c.deepCopy(); clone.set("players", json.valueToTree(atletas.getOrDefault(id,List.of()))); lista.add(clone); });
-            fonte=lista;
-        } else {
-            try (InputStream stream=getClass().getResourceAsStream("/data/catalogo-bra1.json")) {
-                if (stream == null) throw new IllegalStateException("catálogo inicial não encontrado");
-                fonte=json.readTree(stream);
-            }
+        try (InputStream stream=getClass().getResourceAsStream("/data/ligas-brasil-2026.json")) {
+            if (stream == null) throw new IllegalStateException("catálogo brasileiro 2026 não encontrado");
+            estruturaBrasil=json.readTree(stream);
         }
+        JsonNode fonte=estruturaBrasil.path("divisions");
         GeradorRatingJogador ratings = new GeradorRatingJogador();
         for (JsonNode entry : fonte) {
-            String clubeFonteId=entry.path("source_id").asText();
+            String nome=entry.path("club_name").asText();
+            String division=entry.path("division").asText();
+            String clubeFonteId=nome + "-" + division;
             List<JsonNode> atletas = new ArrayList<>(); entry.path("players").forEach(atletas::add);
             if (atletas.size() < 11) continue;
-            String nome = entry.path("name").asText();
             UUID id = UUID.nameUUIDFromBytes(("tm-club-" + clubeFonteId).getBytes(StandardCharsets.UTF_8));
             Clube clube = new Clube(id, nome, nome.length() > 3 ? nome.substring(0, 3).toUpperCase(Locale.ROOT) : nome.toUpperCase(Locale.ROOT));
+            clube.definirPais(entry.path("country").asText("Brasil"));
+            boolean sintetico=false;
+            for (JsonNode atleta : entry.path("players")) sintetico |= atleta.path("synthetic").asBoolean(false);
+            clube.definirElencoSintetico(sintetico);
+            divisaoPorClube.put(id, division);
             int n=0;
             for (JsonNode a : atletas) {
                 Posicao pos = posicao(a.path("position").asText()); if (pos == null) continue;
@@ -241,14 +247,45 @@ public final class MainApp extends Application {
                 valoresElencos.merge(id, Math.max(0, valor), Long::sum); n++;
             }
             clube.definirValorElencoEur(valoresElencos.getOrDefault(id,0L));
-            if (n>=11) catalogo.add(clube);
+            if (n>=11) { completarPosicoesMinimas(clube); catalogo.add(clube); }
         }
         catalogo.sort(Comparator.comparing(Clube::nome));
+    }
+
+    private List<Clube> criarReservatorioDistrital() {
+        List<Clube> distrito = new ArrayList<>();
+        for (JsonNode clubData : estruturaBrasil.path("district_reservoir").path("clubs")) {
+            String nome=clubData.path("name").asText();
+            Clube clube=new Clube(UUID.nameUUIDFromBytes(("district-"+nome).getBytes(StandardCharsets.UTF_8)),nome,"DST");
+            clube.definirPais("Brasil"); clube.definirElencoSintetico(true);
+            var formacao=Formacao.quatroQuatroDois(); int index=0;
+            for (Posicao posicao : formacao.posicoesTitulares()) {
+                clube.adicionarJogador(jogador(nome+" · Jogador "+(++index),posicao,45));
+            }
+            clube.definirValorElencoEur(0); distrito.add(clube);
+        }
+        return distrito;
+    }
+
+    private void completarPosicoesMinimas(Clube clube) {
+        Map<Posicao, Long> necessarios=Formacao.quatroQuatroDois().posicoesTitulares().stream()
+                .collect(java.util.stream.Collectors.groupingBy(p -> p, () -> new EnumMap<>(Posicao.class), java.util.stream.Collectors.counting()));
+        for (var entry : necessarios.entrySet()) {
+            long existentes=clube.elenco().stream().filter(j -> j.posicao()==entry.getKey()).count();
+            while (existentes < entry.getValue()) {
+                existentes++;
+                int rating=(int)Math.max(35,Math.min(65,media(clube)));
+                clube.adicionarJogador(jogador("Reposição estimada · "+entry.getKey()+" "+existentes,entry.getKey(),rating));
+                clube.definirElencoCompletadoSinteticamente(true);
+            }
+        }
     }
 
     private Clube copiarClube(Clube origem) {
         Clube copia = new Clube(origem.id(), origem.nome(), origem.sigla());
         copia.definirValorElencoEur(origem.valorElencoEur());
+        copia.definirPais(origem.pais()); copia.definirElencoSintetico(origem.elencoSintetico());
+        copia.definirElencoCompletadoSinteticamente(origem.elencoCompletadoSinteticamente());
         origem.elenco().forEach(j -> copia.adicionarJogador(new Jogador(j.id(), j.nome(), j.dataNascimento(), j.posicao(), j.atributos())));
         return copia;
     }
@@ -291,7 +328,10 @@ public final class MainApp extends Application {
     }
 
     private static ForcaEquipe forca(Clube clube) {
-        return ForcaEquipe.aPartirDosJogadores(clube.elenco());
+        List<Jogador> jogadores = clube.tatica() == null
+                ? clube.elenco()
+                : clube.tatica().escalacao().titulares();
+        return ForcaEquipe.aPartirDosJogadores(jogadores);
     }
 
     public static void main(String[] args) {

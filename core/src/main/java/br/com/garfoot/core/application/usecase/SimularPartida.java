@@ -16,8 +16,12 @@ public final class SimularPartida {
 
     public ResultadoSimulacao executar(Partida partida, ForcaEquipe forcaMandante, ForcaEquipe forcaVisitante, long seed) {
         Objects.requireNonNull(partida, "partida must not be null");
-        ResultadoSimulacao resultado = motor.simular(forcaMandante, forcaVisitante,
-                partida.mandante().elenco(), partida.visitante().elenco(), seed);
+        var taticaMandante = partida.mandante().tatica();
+        var taticaVisitante = partida.visitante().tatica();
+        ResultadoSimulacao resultado = taticaMandante != null && taticaVisitante != null
+                ? motor.simular(forcaMandante, forcaVisitante, taticaMandante.escalacao(), taticaVisitante.escalacao(), seed)
+                : motor.simular(forcaMandante, forcaVisitante,
+                        partida.mandante().elenco(), partida.visitante().elenco(), seed);
         resultado.aplicarA(partida);
         return resultado;
     }

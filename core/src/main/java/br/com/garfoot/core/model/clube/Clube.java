@@ -18,6 +18,9 @@ public final class Clube {
     private Tecnico tecnico;
     private Tatica tatica;
     private long valorElencoEur;
+    private String pais = "Brasil";
+    private boolean elencoSintetico;
+    private boolean elencoCompletadoSinteticamente;
 
     public Clube(UUID id, String nome, String sigla) {
         this.id = Objects.requireNonNull(id, "id must not be null");
@@ -51,6 +54,12 @@ public final class Clube {
 
     public Tatica tatica() { return tatica; }
     public long valorElencoEur() { return valorElencoEur; }
+    public String pais() { return pais; }
+    public void definirPais(String pais) { this.pais = DomainValidation.requireText(pais, "pais"); }
+    public boolean elencoSintetico() { return elencoSintetico; }
+    public void definirElencoSintetico(boolean sintetico) { elencoSintetico = sintetico; }
+    public boolean elencoCompletadoSinteticamente() { return elencoCompletadoSinteticamente; }
+    public void definirElencoCompletadoSinteticamente(boolean complementado) { elencoCompletadoSinteticamente = complementado; }
     public void definirValorElencoEur(long valor) {
         if (valor < 0) throw new IllegalArgumentException("valorElencoEur must not be negative");
         valorElencoEur = valor;

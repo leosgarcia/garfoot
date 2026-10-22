@@ -54,21 +54,26 @@ public final class TemporadaMapper {
 
     @JsonIgnoreProperties(ignoreUnknown = true)
     public record EstadoTemporada(int versaoFormato, UUID id, String nome, String tipo, List<ClubeData> clubes,
-                                  List<RodadaData> rodadas, List<ClassificacaoData> classificacao) {
-        private static final int VERSAO_ATUAL = 2;
+                                  List<RodadaData> rodadas, List<ClassificacaoData> classificacao,
+                                  String pais, String divisao, List<String> paisesDeCarreira,
+                                  List<ClubeData> reservatorioDistrital) {
+        private static final int VERSAO_ATUAL = 4;
 
         static EstadoTemporada from(Campeonato campeonato) {
             return new EstadoTemporada(VERSAO_ATUAL, campeonato.id(), campeonato.nome(), campeonato.tipo().name(),
                     campeonato.participantes().stream().map(ClubeData::from).toList(),
                     campeonato.rodadas().stream().map(RodadaData::from).toList(),
-                    campeonato.classificacao().stream().map(ClassificacaoData::from).toList());
+                    campeonato.classificacao().stream().map(ClassificacaoData::from).toList(), campeonato.pais(), campeonato.divisao(),
+                    campeonato.paisesDeCarreira(), campeonato.reservatorioDistrital().stream().map(ClubeData::from).toList());
         }
 
         Campeonato toDomain() {
             if (versaoFormato < 1 || versaoFormato > VERSAO_ATUAL) {
                 throw new IllegalStateException("unsupported season save format: " + versaoFormato);
             }
-            Campeonato campeonato = new Campeonato(id, nome, TipoCompeticao.valueOf(tipo));
+            Campeonato campeonato = new Campeonato(id, nome, TipoCompeticao.valueOf(tipo),
+                    pais == null ? "Brasil" : pais, divisao == null ? "Série A" : divisao);
+            if (paisesDeCarreira != null && !paisesDeCarreira.isEmpty()) campeonato.definirPaisesDeCarreira(paisesDeCarreira);
             Map<UUID, Clube> clubesPorId = new HashMap<>();
             Map<UUID, Jogador> jogadoresPorId = new HashMap<>();
             for (ClubeData clubeData : clubes) {
@@ -101,6 +106,7 @@ public final class TemporadaMapper {
                 }
                 campeonato.adicionarRodada(rodada);
             }
+            if (reservatorioDistrital != null) reservatorioDistrital.stream().map(ClubeData::toDomain).forEach(campeonato::adicionarAoDistrito);
             if (!classificacao.isEmpty()) {
                 campeonato.atualizarClassificacao(classificacao.stream().map(item -> item.toDomain(clubesPorId)).toList());
             }
@@ -110,17 +116,22 @@ public final class TemporadaMapper {
 
     @JsonIgnoreProperties(ignoreUnknown = true)
     public record ClubeData(UUID id, String nome, String sigla, List<JogadorData> jogadores,
-                            UUID tecnicoId, String tecnicoNome, TaticaData tatica, long valorElencoEur) {
+                            UUID tecnicoId, String tecnicoNome, TaticaData tatica, long valorElencoEur, String pais,
+                            boolean elencoSintetico, boolean elencoCompletadoSinteticamente) {
         static ClubeData from(Clube clube) {
             return new ClubeData(clube.id(), clube.nome(), clube.sigla(), clube.elenco().stream().map(JogadorData::from).toList(),
                     clube.tecnico() == null ? null : clube.tecnico().id(),
                     clube.tecnico() == null ? null : clube.tecnico().nome(),
-                    clube.tatica() == null ? null : TaticaData.from(clube.tatica()), clube.valorElencoEur());
+                    clube.tatica() == null ? null : TaticaData.from(clube.tatica()), clube.valorElencoEur(), clube.pais(),
+                    clube.elencoSintetico(), clube.elencoCompletadoSinteticamente());
         }
         Clube toDomain() {
             Clube clube = new Clube(id, nome, sigla);
             jogadores.stream().map(JogadorData::toDomain).forEach(clube::adicionarJogador);
             clube.definirValorElencoEur(Math.max(0, valorElencoEur));
+            if (pais != null) clube.definirPais(pais);
+            clube.definirElencoSintetico(elencoSintetico);
+            clube.definirElencoCompletadoSinteticamente(elencoCompletadoSinteticamente);
             return clube;
         }
     }
